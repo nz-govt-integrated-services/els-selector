@@ -1,0 +1,16 @@
+{
+  "types": [
+    {"name": "Kōhanga Reo", "id": "kohanga"},
+    {"name": "Kindergarten", "id": "kindergarten"}
+  ],
+  "attributes": [
+    {
+      "name": "Te Reo Māori immersion",
+      "values": {"kohanga": "true", "kindergarten": "false"}
+    },
+    {
+      "name": "Led by qualified teachers",
+      "values": {"kohanga": "false", "kindergarten": "true"}
+    }
+  ]
+}
