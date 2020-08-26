@@ -1,16 +1,25 @@
 {
   "types": [
     {"name": "Kōhanga Reo", "id": "kohanga"},
-    {"name": "Kindergarten", "id": "kindergarten"}
+    {"name": "Kindergarten", "id": "kindergarten"},
+    {"name": "Something else", "id": "something"}
   ],
   "attributes": [
     {
       "name": "Te Reo Māori immersion",
-      "values": {"kohanga": "true", "kindergarten": "false"}
+      "values": {"kohanga": "true", "kindergarten": "false", "something": "partial"}
     },
     {
       "name": "Led by qualified teachers",
-      "values": {"kohanga": "false", "kindergarten": "true"}
+      "values": {"kohanga": "false", "kindergarten": "true", "something": "unknown"}
+    },
+    {
+      "name": "Vegetarian",
+      "values": {"kohanga": "partial", "kindergarten": "partial", "something": "partial"}
+    },
+    {
+      "name": "Sandpits",
+      "values": {"kohanga": "true", "kindergarten": "true", "something": "false"}
     }
   ]
 }

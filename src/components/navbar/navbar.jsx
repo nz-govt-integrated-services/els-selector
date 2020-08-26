@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar(props) {
   return(
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-lavender">
       <a class="navbar-brand" href="#">Start Well</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

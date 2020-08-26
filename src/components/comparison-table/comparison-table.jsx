@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ComparisonCell from '../comparison-cell/comparison-cell'
 
 export default function ComparisonTable(props) {
   return (
@@ -19,7 +20,7 @@ export default function ComparisonTable(props) {
               <td>{attribute.name}</td>
               {
                 props.data.types.map((type, index) => (
-                  <td>{attribute.values[type.id]}</td>
+                  <ComparisonCell value = { attribute.values[type.id] } />
                 ))
               }
             </tr>
