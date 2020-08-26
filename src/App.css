@@ -24,3 +24,10 @@
 .bg-lavender {
   background: var(--lavender);
 }
+
+.link-not-blue {
+  color: #212529;
+}
+.link-not-blue:hover {
+  text-decoration: none;
+}
