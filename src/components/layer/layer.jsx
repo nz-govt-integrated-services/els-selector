@@ -61,7 +61,7 @@ export default function Layer(props) {
       <div className="row">
         {
           props.answers.map((answer, index) => (
-            <div className="position-relative col-xs-12 col-sm-6 col-lg-3 mb-2 border">
+            <div className="position-relative col-xs-12 col-sm-6 col-lg-3 mb-2">
               <input
                 type="radio"
                 id={`${removeWhitespaces(answer.answer)}-${props.layerCount}-${props.index}`}

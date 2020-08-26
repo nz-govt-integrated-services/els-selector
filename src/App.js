@@ -7,7 +7,7 @@ import DecisionTreePage from './pages/decision-tree'
 import TablePage from './pages/table'
 import HomePage from './pages/home'
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

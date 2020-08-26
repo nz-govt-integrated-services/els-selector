@@ -1,0 +1,111 @@
+// Breakpoints
+$desktop-and-above: 'only screen and (min-width: 992px)';
+
+// Padding
+// can be changed/removed when COVID site uses variables
+$card-padding-y: 3rem;
+$card-padding-x: 1rem;
+
+$section-padding-y: 30px;
+
+$outline-offset: 0.2rem;
+
+
+:root {
+  --impendingstorm: #9CA7DB;
+  --impendingstorm--deep: #41465C;
+  --impendingstorm--highlight: #A5B0E8;
+  --lavender: #BAA7DB;
+  --lavender--deep: #4E465C;
+  --lavender--highlight: #C5B0E8;
+  --latte: #DBC8B2;
+  --latte--deep: #5C544A;
+  --latte--highlight: #E8D3BC;
+  --ripelime: #DBD886;
+  --ripelime--deep: #5C5B38;
+  --ripelime--highlight: #E8E58E;
+  --sunnydaysky: #91C4DB;
+  --sunnydaysky--deep: #3D525C;
+  --sunnydaysky--highlight: #99CFE8;
+
+  --green: #86DBC8;
+  --red: #DBB4A7;
+  --orange: #DBAF7B;
+  --yellow: #DBD77B;
+  --color-black: #000;
+  --color-white: #FFF;
+}
+
+.bg-lavender {
+  background: var(--lavender);
+}
+
+.link-not-blue {
+  color: #212529;
+}
+.link-not-blue:hover {
+  text-decoration: none;
+}
+
+.decision-tree-wrapper {
+  .answer {
+    opacity: 0;
+    position: absolute;
+    top: calc(50% - 7px);
+    left: 22%;
+    z-index: 5;
+
+    @media (max-width: 576px) {
+      left: 11%;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:checked {
+      + label {
+        background-color: #fc0; // backup for IE11
+        background-color: var(--lavender);
+        border: 1px solid #000; // backup for IE11
+        border: 1px solid var(--color-black);
+      }
+    }
+
+    &:focus {
+      + label {
+        outline: 2px solid #326af5; // backup for IE11
+        outline: 2px solid var(--color-accessibility-ring);
+        box-shadow: none;
+        outline-offset: $outline-offset;
+      }
+    }
+  }
+
+  label {
+    font-weight: 600;
+    background-color: #fff; //backup for IE11
+    background-color: var(--color-white);
+    padding: $card-padding-y $card-padding-x;
+    border: 1px solid #000; //backup for IE11
+    border: 1px solid var(--color-black);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    // traditional radio buttons on mobile
+    @media (max-width: 576px) {
+      background: none;
+      box-shadow: none;
+      padding: 0.5em 0 0.5em 55px;
+      text-align: left;
+      border: none;
+    }
+  }
+}
