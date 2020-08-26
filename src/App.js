@@ -1,25 +1,22 @@
 import React from 'react';
-import DecisionTree from './components/decision-tree/decision-tree';
-import ComparisonTable from './components/comparison-table/comparison-table';
+
+import { HashRouter, Route } from "react-router-dom";
+
+import CombinedPage from './pages/combined'
+import DecisionTreePage from './pages/decision-tree'
+import TablePage from './pages/table'
+import HomePage from './pages/home'
+
 import './App.css';
-import DECISIONTREE_DATA from './data/decision-tree.json';
-import TABLE_DATA from './data/table-data.json';
 
 function App() {
   return (
-    <div className="container">
-      <DecisionTree
-              data={DECISIONTREE_DATA}
-              resultHeading={"Based on your results..."}
-            />
-      <div className="row">
-        <div className="col-lg-12">
-          <ComparisonTable
-          data={TABLE_DATA}
-          />
-        </div>
-      </div>
-    </div>
+    <HashRouter basename='/'>
+      <Route exact path="/" component={HomePage} />
+      <Route path="/combined" component={CombinedPage} />
+      <Route path="/decision-tree" component={DecisionTreePage} />
+      <Route path="/table" component={TablePage} />
+    </HashRouter>
   );
 }
 
