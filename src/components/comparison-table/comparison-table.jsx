@@ -3,12 +3,6 @@ import PropTypes from 'prop-types';
 import ComparisonCell from '../comparison-cell/comparison-cell'
 
 export default function ComparisonTable(props) {
-  const typesWithNoCategory = () => {
-    const categoryMemberIds = props.data.categories.map((category) => (category.members)).flat();
-    const allTypeIds = Object.keys(props.data.types);
-    return allTypeIds.filter(x => !categoryMemberIds.includes(x));
-  }
-
   const typeOrder = () => {
     const categoryMemberIds = props.data.categories.map((category) => (category.members)).flat();
     const allTypeIds = Object.keys(props.data.types);
