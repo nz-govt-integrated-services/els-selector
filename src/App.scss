@@ -109,3 +109,9 @@ $outline-offset: 0.2rem;
     }
   }
 }
+
+.checklist {
+  &:after {
+    content: '';
+  }
+}

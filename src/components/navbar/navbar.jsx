@@ -25,6 +25,9 @@ export default function NavBar(props) {
           <li class="nav-item">
             <Link to="/decision-tree" className="nav-link">Decision tree</Link>
           </li>
+          <li class="nav-item">
+            <Link to="/process" className="nav-link">Process</Link>
+          </li>
         </ul>
       </div>
     </nav>

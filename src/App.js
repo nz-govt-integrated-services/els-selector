@@ -6,6 +6,7 @@ import CombinedPage from './pages/combined'
 import DecisionTreePage from './pages/decision-tree'
 import TablePage from './pages/table'
 import HomePage from './pages/home'
+import ProcessPage from './pages/process'
 
 import './App.scss';
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="/combined" component={CombinedPage} />
       <Route path="/decision-tree" component={DecisionTreePage} />
       <Route path="/table" component={TablePage} />
+      <Route path="/process" component={ProcessPage} />
     </HashRouter>
   );
 }

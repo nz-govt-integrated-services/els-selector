@@ -22,7 +22,7 @@ export default function Layer(props) {
   const removeWhitespaces = (string) => string.replace(/ /g, '');
 
   return (
-    <fieldset>
+    <fieldset class="pt-4">
       {
         props.text
         && (
