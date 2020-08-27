@@ -1,25 +1,50 @@
 {
-  "types": [
-    {"name": "Kōhanga Reo", "id": "kohanga"},
-    {"name": "Kindergarten", "id": "kindergarten"},
-    {"name": "Something else", "id": "something"}
+  "categories": [
+    {
+      "name": "Education and care services",
+      "members": ["aoga", "montessori", "steiner", "akoteu"]
+    }
   ],
+  "types": {
+    "kohanga": {"name": "Kōhanga Reo"},
+    "kindergarten": {"name": "Kindergarten"},
+    "aoga": {"name": "Aoga"},
+    "montessori": {"name": "Montessori"},
+    "steiner": {"name": "Rudolf Steiner (Waldorf)"},
+    "akoteu": {"name": "Akoteu"}
+  },
   "attributes": [
     {
       "name": "Te Reo Māori immersion",
-      "values": {"kohanga": "true", "kindergarten": "false", "something": "partial"}
+      "values": {
+        "kohanga": {"value": "true"},
+        "kindergarten": {"value": "false"},
+        "aoga": {"value": "false", "notes": "Samoan language immersion"}
+      }
     },
     {
       "name": "Led by qualified teachers",
-      "values": {"kohanga": "false", "kindergarten": "true", "something": "unknown"}
+      "values": {
+        "kohanga": {"value": "false"},
+        "kindergarten": {"value": "true"},
+        "aoga": {"value": "false"}
+      }
     },
     {
-      "name": "Vegetarian",
-      "values": {"kohanga": "partial", "kindergarten": "partial", "something": "partial"}
+      "name": "Number in New Zealand",
+      "values": {
+        "kohanga": {"notes": "440"},
+        "kindergarten": {"notes": "661"},
+        "aoga": {"notes": "16"}
+      }
     },
     {
-      "name": "Sandpits",
-      "values": {"kohanga": "true", "kindergarten": "true", "something": "false"}
+      "name": "Ages",
+      "values": {
+        "kohanga": {"notes": "0 - 6"},
+        "kindergarten": {"notes": "2½ - 5"},
+        "aoga": {}
+      }
     }
   ]
 }

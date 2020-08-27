@@ -17,7 +17,12 @@
     "lists": [
       {
         "title": "Things you'll want to consider",
-        "items": ["Location", "Space"]
+        "items": ["Location: are they close enough to home, work or study?", "Hours: are they open when you need them, and what about school holidays?",
+"Style of care: do they offer what you want for your child eg language, culture, values, activities and learning?",
+"Cost: can you afford the fees? Remember, even with government subsidies like 20 Hours ECE, you may still have to pay fees. Check with each service to find out.",
+"Services offered: do they offer what you want, like meals, drinks, nappies, supplies, activities etc. Check what’s included in the fees.",
+"Size: would your child do better in a small group or a large one, and what is the adult to child ratio?",
+"Availability: do they have space, or is there a waiting list?"]
       }
     ]
   },

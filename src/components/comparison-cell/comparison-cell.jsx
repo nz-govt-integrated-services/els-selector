@@ -15,16 +15,28 @@ export default function ComparisonCell(props) {
 
   return (
     <td>
-      <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} />
+      <div class="d-flex flex-column align-items-center">
+        {
+          props.value && (
+            <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} />
+          )
+        }
+        {
+          props.notes && (
+            <span class="small">{props.notes}</span>
+          )
+        }
+      </div>
     </td>
   )
 }
 
 ComparisonCell.defaultProps = {
-  notes: ''
+  notes: '',
+  value: ''
 };
 
 ComparisonCell.propTypes = {
-  value: PropTypes.string.isRequired,
+  value: PropTypes.string,
   notes: PropTypes.string
 };
