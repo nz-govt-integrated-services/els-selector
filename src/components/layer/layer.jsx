@@ -41,7 +41,7 @@ export default function Layer(props) {
           <div className="pb-5 question-details-section" dangerouslySetInnerHTML={{ __html: props.question_details }} />
         )
       }
-      <div className="pb-5 more-info-section">
+      <div className="more-info-section">
         { props.moreInfo.preview
           && (
             <button
