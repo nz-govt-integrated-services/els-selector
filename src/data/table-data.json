@@ -2,7 +2,7 @@
   "categories": [
     {
       "name": "Education and care services",
-      "members": ["aoga", "montessori", "steiner", "akoteu"]
+      "members": ["aoga", "montessori", "steiner", "akoteu", "home_based"]
     },
     {
       "name": "Parent-led services",
@@ -19,7 +19,8 @@
     "puna_kōhungahunga": {"name": "Ngā Puna Kōhungahunga"},
     "playcentre": {"name": "Playcentre"},
     "playgroup": {"name": "Playgroup"},
-    "te_kura": {"name": "Te Kura"}
+    "te_kura": {"name": "Te Kura"},
+    "home_based": {"name": "Home-based education and care"}
   },
   "attributes": [
     {

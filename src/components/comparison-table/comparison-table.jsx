@@ -11,50 +11,52 @@ export default function ComparisonTable(props) {
   }
 
   return (
-    <table className="table table-bordered border-0 table-hover">
-      <thead>
-        <tr>
-          <th className="border-0" />
+    <div class="table-responsive">
+      <table className="table table-bordered border-0 table-hover">
+        <thead>
+          <tr>
+            <th className="border-0" />
+            {
+              props.data.categories.map((category, index) => (
+                <th colspan={category.members.length} className="text-center">
+                  {category.name}
+                </th>
+              ))
+            }
+          </tr>
+          <tr>
+            <th />
+            {
+              typeOrder().map((type, index) => (
+                <th className="text-center">
+                  { props.data.types[type].name }
+                </th>
+              ))
+            }
+          </tr>
+        </thead>
+        <tbody>
           {
-            props.data.categories.map((category, index) => (
-              <th colspan={category.members.length} className="text-center">
-                {category.name}
-              </th>
+            props.data.attributes.map((attribute, index) => (
+              <tr>
+                <td className="font-weight-bold">
+                  {attribute.name}
+                </td>
+                {
+                  typeOrder().map((type, index) => (
+                    <ComparisonCell
+                      value = { attribute.values[type] && attribute.values[type].value }
+                      notes = { attribute.values[type] && attribute.values[type].notes }
+                      links = { attribute.values[type] && attribute.values[type].links }
+                    />
+                  ))
+                }
+              </tr>
             ))
           }
-        </tr>
-        <tr>
-          <th />
-          {
-            typeOrder().map((type, index) => (
-              <th className="text-center">
-                { props.data.types[type].name }
-              </th>
-            ))
-          }
-        </tr>
-      </thead>
-      <tbody>
-        {
-          props.data.attributes.map((attribute, index) => (
-            <tr>
-              <td className="font-weight-bold">
-                {attribute.name}
-              </td>
-              {
-                typeOrder().map((type, index) => (
-                  <ComparisonCell
-                    value = { attribute.values[type] && attribute.values[type].value }
-                    notes = { attribute.values[type] && attribute.values[type].notes }
-                    links = { attribute.values[type] && attribute.values[type].links }
-                  />
-                ))
-              }
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </div>
   )
 }
 
