@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Link from '../link/link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle, faTimesCircle, faQuestionCircle, faMinusCircle } from '@fortawesome/free-solid-svg-icons'
@@ -18,12 +19,23 @@ export default function ComparisonCell(props) {
       <div class="d-flex flex-column align-items-center">
         {
           props.value && (
-            <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} />
+            <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} className="mb-1" />
           )
         }
         {
           props.notes && (
-            <span class="small">{props.notes}</span>
+            <span class="small text-center">{props.notes}</span>
+          )
+        }
+        {
+          props.links && (
+            <div className="small">
+              {
+                props.links.map((link, index) => (
+                  <Link href={ link.href } text={ link.text } />
+                ))
+              }
+            </div>
           )
         }
       </div>
@@ -33,10 +45,12 @@ export default function ComparisonCell(props) {
 
 ComparisonCell.defaultProps = {
   notes: '',
-  value: ''
+  value: '',
+  links: []
 };
 
 ComparisonCell.propTypes = {
   value: PropTypes.string,
-  notes: PropTypes.string
+  notes: PropTypes.string,
+  links: PropTypes.array
 };

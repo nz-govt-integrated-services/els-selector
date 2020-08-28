@@ -11,10 +11,10 @@ export default function ComparisonTable(props) {
   }
 
   return (
-    <table className="table table-striped">
+    <table className="table table-bordered border-0 table-hover">
       <thead>
         <tr>
-          <th />
+          <th className="border-0" />
           {
             props.data.categories.map((category, index) => (
               <th colspan={category.members.length} className="text-center">
@@ -38,12 +38,15 @@ export default function ComparisonTable(props) {
         {
           props.data.attributes.map((attribute, index) => (
             <tr>
-              <td>{attribute.name}</td>
+              <td className="font-weight-bold">
+                {attribute.name}
+              </td>
               {
                 typeOrder().map((type, index) => (
                   <ComparisonCell
                     value = { attribute.values[type] && attribute.values[type].value }
                     notes = { attribute.values[type] && attribute.values[type].notes }
+                    links = { attribute.values[type] && attribute.values[type].links }
                   />
                 ))
               }

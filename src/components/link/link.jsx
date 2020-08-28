@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+
 export default function Link(props) {
   const linkClasses = classNames(
     'external',
@@ -16,10 +19,14 @@ export default function Link(props) {
         title="Open external link"
         target="_blank"
         rel="noopener noreferrer"
+        style={{"white-space": "nowrap"}}
       >
         {props.text}
+        <FontAwesomeIcon icon={ faExternalLinkAlt } className="ml-1" />
       </a>
-      <span className="nonvisual-indicator">(external link)</span>
+      <span className="sr-only">
+        (external link)
+      </span>
       {' '}
     </span>
   );

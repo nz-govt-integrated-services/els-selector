@@ -3,6 +3,10 @@
     {
       "name": "Education and care services",
       "members": ["aoga", "montessori", "steiner", "akoteu"]
+    },
+    {
+      "name": "Parent-led services",
+      "members": ["playcentre", "playgroup", "kohanga", "puna_kōhungahunga"]
     }
   ],
   "types": {
@@ -11,7 +15,11 @@
     "aoga": {"name": "Aoga"},
     "montessori": {"name": "Montessori"},
     "steiner": {"name": "Rudolf Steiner (Waldorf)"},
-    "akoteu": {"name": "Akoteu"}
+    "akoteu": {"name": "Akoteu"},
+    "puna_kōhungahunga": {"name": "Ngā Puna Kōhungahunga"},
+    "playcentre": {"name": "Playcentre"},
+    "playgroup": {"name": "Playgroup"},
+    "te_kura": {"name": "Te Kura"}
   },
   "attributes": [
     {
@@ -19,15 +27,36 @@
       "values": {
         "kohanga": {"value": "true"},
         "kindergarten": {"value": "false"},
-        "aoga": {"value": "false", "notes": "Samoan language immersion"}
+        "aoga": {"value": "false", "notes": "Samoan language immersion"},
+        "montessori": {"value": "false"},
+        "steiner": {"value": "false"},
+        "playcentre": {"value": "false"},
+        "playgroup": {"value": "false"},
+        "puna_kōhungahunga": {"value": "true"},
+        "te_kura": {"value": "false"},
+        "akoteu": {"value": "false", "notes": "Tongan language immersion"}
       }
     },
     {
-      "name": "Led by qualified teachers",
+      "name": "Always led by qualified teachers",
       "values": {
-        "kohanga": {"value": "false"},
-        "kindergarten": {"value": "true"},
-        "aoga": {"value": "false"}
+        "kohanga": {
+          "value": "partial",
+          "notes": "Kaiako usually qualified in Te Reo Māori"
+        },
+        "playcentre": {
+          "value": "false"
+        },
+        "playgroup": {
+          "value": "false"
+        },
+        "kindergarten": {"value": "true", "notes": "100% qualified teachers"},
+        "aoga": {"value": "true"},
+        "puna_kōhungahunga": {"value": "false"},
+        "montessori": {"value": "true"},
+        "steiner": {"value": "true"},
+        "te_kura": {"value": "true"},
+        "akoteu": {"value": "true"}
       }
     },
     {
@@ -35,15 +64,73 @@
       "values": {
         "kohanga": {"notes": "440"},
         "kindergarten": {"notes": "661"},
-        "aoga": {"notes": "16"}
+        "aoga": {"notes": "16"},
+        "montessori": {"notes": "200"},
+        "steiner": {"notes": "22"},
+        "te_kura": {"notes": "1"},
+        "akoteu": {"notes": "12"},
+        "playcentre": {"notes": "404"},
+        "playgroup": {"value": "unknown", "notes": "Playgroups are license-exempt"}
       }
     },
     {
       "name": "Ages",
       "values": {
         "kohanga": {"notes": "0 - 6"},
-        "kindergarten": {"notes": "2½ - 5"},
-        "aoga": {}
+        "kindergarten": {"notes": "Usually 2½ - 5"},
+        "te_kura": {"notes": "3 - 5"},
+        "aoga": {},
+        "montessori": {"notes": "0 - 6"},
+        "steiner": {},
+        "akoteu": {},
+        "playcentre": {"notes": "0 - 6"},
+        "puna_kōhungahunga": {},
+        "playgroup": {}
+      }
+    },
+    {
+      "name": "Eligible for 20 Hours Free ECE",
+      "values": {
+        "kohanga": {"value": "true"},
+        "kindergarten": {"value": "true"},
+        "te_kura": {"value": "true"},
+        "aoga": {"value": "true"},
+        "montessori": {"value": "true"},
+        "steiner": {"value": "true"},
+        "akoteu": {"value": "true"},
+        "playcentre": {"value": "true"},
+        "puna_kōhungahunga": {"value": "true"},
+        "playgroup": {"value": "true"}
+      }
+    },
+    {
+      "name": "Education philosophy",
+      "values": {
+        "kohanga": {"notes": "Te Reo Māori and tikanga Māori", "links": [{"text": "Read more", "href": "https://www.kohanga.ac.nz/whakamana-i-te-kaupapa"}]},
+        "kindergarten": {},
+        "te_kura": {},
+        "aoga": {},
+        "montessori": {"notes": "Based on philosophy of Maria Montessori", "links": [{"text": "Read more", "href": "https://www.montessori.org.nz/montessori/what-is-montessori/"}]},
+        "steiner": {"notes": "Based on philosophy of Rudolf Steiner", "links": [{"text": "Read more", "href": "http://seanz.org/our-mandate/"}]},
+        "akoteu": {},
+        "playcentre": {},
+        "puna_kōhungahunga": {},
+        "playgroup": {}
+      }
+    },
+    {
+      "name": "Organisation structure",
+      "values": {
+        "kohanga": {"notes": "Administered by..", "links": [{"text": "Read more", "href": "https://www.kohanga.ac.nz/whakamana-i-te-kaupapa"}]},
+        "kindergarten": {"notes": "NZ Kindergartens administers regional Kindergarten Associations", "links": [{"text": "Read more", "href": "https://nzkindergarten.org.nz/"}]},
+        "te_kura": {},
+        "aoga": {},
+        "montessori": {"notes": "Administered by..", "links": [{"text": "Read more", "href": "https://www.montessori.org.nz/montessori/what-is-montessori/"}]},
+        "steiner": {"notes": "Administered by..", "links": [{"text": "Read more", "href": "http://seanz.org/our-mandate/"}]},
+        "akoteu": {},
+        "playcentre": {"notes": "Administered by..."},
+        "puna_kōhungahunga": {},
+        "playgroup": {"notes": "Playgroups are usually run by community organisations"}
       }
     }
   ]
