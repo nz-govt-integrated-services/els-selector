@@ -8,7 +8,7 @@ function ProcessPage() {
   return (
     <div>
       <NavBar />
-      <div class="container mt-4 pt-4">
+      <div className="container mt-4 pt-4">
         <div className="row">
           <div className="col-12">
             <h1>Process</h1>
@@ -17,7 +17,7 @@ function ProcessPage() {
         <div className="row">
           {
             CHECKLIST_DATA.map((checklist, index) => (
-              <div className="col checklist">
+              <div className="col checklist" key={ checklist.title }>
                 <Checklist data={ checklist }/>
               </div>
             ))
