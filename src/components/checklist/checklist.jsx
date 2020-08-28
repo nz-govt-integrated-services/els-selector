@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function Checklist(props) {
@@ -9,20 +9,6 @@ export default function Checklist(props) {
       </div>
       <div className="card-body">
         <p>{props.data.blurb}</p>
-        {
-          props.data.lists.map((list, index) => (
-            <div key={ list.title }>
-              <h4>{list.title}</h4>
-              <ul>
-                {
-                  list.items.map((item, index) => (
-                    <li key={ item }>{ item }</li>
-                  ))
-                }
-              </ul>
-            </div>
-          ))
-        }
       </div>
     </div>
   )
