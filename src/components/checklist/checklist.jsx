@@ -2,15 +2,9 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 export default function Checklist(props) {
-  const [checklistActive, setChecklistActive] = useState(false);
-
-  const handleClick = () => {
-    setChecklistActive(!checklistActive)
-  };
-
   return (
-    <div className="card" onClick={ handleClick }>
-      <div className={`card-header ${checklistActive && 'bg-lavender'}`}>
+    <div className="card" onClick={ () => props.onClick(props.index) }>
+      <div className={`card-header ${props.active && 'bg-lavender'}`}>
         <h2>{props.data.title}</h2>
       </div>
       <div className="card-body">
@@ -40,5 +34,8 @@ Checklist.propTypes = {
     blurb: PropTypes.string,
     lists: PropTypes.array,
     links: PropTypes.array
-  }).isRequired
+  }).isRequired,
+  index: PropTypes.number.isRequired,
+  onClick: PropTypes.func.isRequired,
+  active: PropTypes.bool.isRequired
 };

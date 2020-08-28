@@ -1,5 +1,5 @@
 import React from 'react';
-import Checklist from '../components/checklist/checklist';
+import ProcessGroup from '../components/process-group/process-group';
 import NavBar from '../components/navbar/navbar';
 
 import CHECKLIST_DATA from '../data/checklist-data.json';
@@ -14,15 +14,7 @@ function ProcessPage() {
             <h1>Process</h1>
           </div>
         </div>
-        <div className="row">
-          {
-            CHECKLIST_DATA.map((checklist, index) => (
-              <div className="col checklist" key={ checklist.title }>
-                <Checklist data={ checklist }/>
-              </div>
-            ))
-          }
-        </div>
+        <ProcessGroup checklists={ CHECKLIST_DATA } />
       </div>
     </div>
   );
