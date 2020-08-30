@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function Checklist(props) {
   return (
-    <div className="card" onClick={ () => props.onClick(props.index) }>
+    <div className={`card ${props.active && 'checklist--active'}`} onClick={ () => props.onClick(props.index) }>
       <div className={`card-header ${props.active && 'bg-lavender'}`}>
         <h2>{props.data.title}</h2>
       </div>

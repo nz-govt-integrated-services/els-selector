@@ -27,7 +27,7 @@ export default function ProcessGroup(props) {
         }
       </div>
       {
-        activeChecklist && (
+        (activeChecklist !== null) && (
           <div className="row">
             {
               <div className="col-12">

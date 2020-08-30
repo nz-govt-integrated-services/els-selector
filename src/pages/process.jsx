@@ -11,7 +11,6 @@ function ProcessPage() {
       <div className="container mt-4 pt-4">
         <div className="row">
           <div className="col-12">
-            <h1>Process</h1>
           </div>
         </div>
         <ProcessGroup checklists={ CHECKLIST_DATA } />

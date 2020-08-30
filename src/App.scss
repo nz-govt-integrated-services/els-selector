@@ -109,12 +109,12 @@ $outline-offset: 0.2rem;
     }
   }
 }
-
-.checklist {
-  &:after {
-    content: '';
-  }
-}
+//
+// .checklist {
+//   &:after {
+//     content: '';
+//   }
+// }
 
 .table-sticky-header {
   position: relative;
@@ -122,5 +122,27 @@ $outline-offset: 0.2rem;
     position: sticky;
     top: 0;
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.process-item {
+  position: relative;
+  top: -2px;
+  background: white;
+}
+
+.checklist--active {
+  position: relative;
+  &.card {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  &::after {
+    content: '';
+    border-bottom: 4px solid white;
+    position: absolute;
+    bottom: -2px;
+    z-index: 99;
+    width: 100%;
   }
 }
