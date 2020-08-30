@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function ProcessItem(props) {
   return (
-    <div class="border p-4 process-item">
+    <div className="border p-4 process-item">
       {
         props.data.lists.map((list, index) => (
           <div key={ list.title }>

@@ -8,9 +8,9 @@ function DecisionTreePage() {
   return (
     <div>
       <NavBar />
-      <div class="container py-4">
-        <div class="row">
-          <div class="col-12">
+      <div className="container py-4">
+        <div className="row">
+          <div className="col-12">
             <h1>What type of early learning service is right for you?</h1>
             <p>Lorem ipsum dolor sit amet...</p>
           </div>

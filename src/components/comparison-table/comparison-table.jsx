@@ -11,7 +11,7 @@ export default function ComparisonTable(props) {
   }
 
   return (
-    <div class="table-responsive">
+    <div className="table-responsive">
       <table className="table table-bordered border-0 table-hover">
         <thead>
           <tr>

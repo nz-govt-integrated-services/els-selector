@@ -16,7 +16,7 @@ export default function ComparisonCell(props) {
 
   return (
     <td>
-      <div class="d-flex flex-column align-items-center">
+      <div className="d-flex flex-column align-items-center">
         {
           props.value && (
             <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} className="mb-1" />
@@ -24,7 +24,7 @@ export default function ComparisonCell(props) {
         }
         {
           props.notes && (
-            <span class="small text-center">{props.notes}</span>
+            <span className="small text-center">{props.notes}</span>
           )
         }
         {

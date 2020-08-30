@@ -22,7 +22,7 @@ export default function Layer(props) {
   const removeWhitespaces = (string) => string.replace(/ /g, '');
 
   return (
-    <fieldset class="pt-4">
+    <fieldset className="pt-4">
       {
         props.text
         && (
@@ -61,7 +61,7 @@ export default function Layer(props) {
       <div className="row">
         {
           props.answers.map((answer, index) => (
-            <div className="position-relative col-xs-12 col-sm-6 col-lg-3 mb-2">
+            <div className="position-relative col-xs-12 col-sm-6 col-lg-3 mb-2" key={answer.answer}>
               <input
                 type="radio"
                 id={`${removeWhitespaces(answer.answer)}-${props.layerCount}-${props.index}`}
@@ -94,8 +94,8 @@ Layer.defaultProps = {
 Layer.propTypes = {
   question: PropTypes.string,
   moreInfo: PropTypes.shape({
-    preview: PropTypes.string.isRequired,
-    fullText: PropTypes.string.isRequired
+    preview: PropTypes.string,
+    fullText: PropTypes.string
   }),
   text: PropTypes.string,
   question_details: PropTypes.string,

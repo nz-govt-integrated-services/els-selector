@@ -22,7 +22,6 @@ export default function Link(props) {
         style={{"whiteSpace": "nowrap"}}
       >
         {props.text}
-        <FontAwesomeIcon icon={ faExternalLinkAlt } className="ml-1" />
       </a>
       <span className="sr-only">
         (external link)

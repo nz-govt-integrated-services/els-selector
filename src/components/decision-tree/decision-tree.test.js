@@ -3,7 +3,7 @@ import Adapter from 'enzyme-adapter-react-16';
 import { mount, configure } from 'enzyme';
 import { act } from 'react-dom/test-utils';
 
-import DECISIONTREE_DATA from 'data/test-decision-tree.json';
+import DECISIONTREE_DATA from './test-decision-tree.json';
 import DecisionTree from './decision-tree';
 
 jest.useFakeTimers();

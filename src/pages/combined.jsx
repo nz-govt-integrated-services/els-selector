@@ -10,7 +10,7 @@ function CombinedPage() {
   return (
     <div>
       <NavBar />
-      <div class="container">
+      <div className="container">
           <DecisionTree
                   data={DECISIONTREE_DATA}
                   resultHeading={"Based on your results..."}
