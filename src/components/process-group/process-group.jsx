@@ -1,37 +1,37 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import Checklist from '../checklist/checklist';
+import ProcessItemPreview from '../process-item-preview/process-item-preview';
 import ProcessItem from '../process-item/process-item';
 
 export default function ProcessGroup(props) {
-  const [activeChecklist, setActiveChecklist] = useState(null);
+  const [activeItem, setActiveItem] = useState(null);
 
-  const handleClick = (checklistIndex) => {
-    setActiveChecklist(checklistIndex);
+  const handleClick = (itemIndex) => {
+    setActiveItem(itemIndex);
   };
 
   return (
     <div>
-      <div className="row">
+      <div className="row align-items-stretch">
         {
           props.checklists.map((checklist, index) => (
             <div className="col checklist" key={ checklist.title }>
-              <Checklist
+              <ProcessItemPreview
                 data={ checklist }
                 index={ index }
                 onClick={ handleClick }
-                active={ index === activeChecklist }
+                active={ index === activeItem }
               />
             </div>
           ))
         }
       </div>
       {
-        (activeChecklist !== null) && (
+        (activeItem !== null) && (
           <div className="row">
             {
               <div className="col-12">
-                <ProcessItem data={ props.checklists[activeChecklist] } />
+                <ProcessItem data={ props.checklists[activeItem] } />
               </div>
             }
           </div>

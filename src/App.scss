@@ -131,18 +131,21 @@ $outline-offset: 0.2rem;
   background: white;
 }
 
-.checklist--active {
-  position: relative;
-  &.card {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  &::after {
-    content: '';
-    border-bottom: 4px solid white;
-    position: absolute;
-    bottom: -2px;
-    z-index: 99;
-    width: 100%;
+.process-item-preview {
+  height: 100%;
+  &--active {
+    position: relative;
+    &.card {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    &::after {
+      content: '';
+      border-bottom: 4px solid white;
+      position: absolute;
+      bottom: -2px;
+      z-index: 99;
+      width: 100%;
+    }
   }
 }

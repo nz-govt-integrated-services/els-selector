@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Checklist(props) {
+export default function ProcessItemPreview(props) {
   return (
-    <div className={`card ${props.active && 'checklist--active'}`} onClick={ () => props.onClick(props.index) }>
+    <div className={`card process-item-preview ${props.active && 'process-item-preview--active'}`} onClick={ () => props.onClick(props.index) }>
       <div className={`card-header ${props.active && 'bg-lavender'}`}>
         <h2>{props.data.title}</h2>
       </div>
@@ -14,7 +14,7 @@ export default function Checklist(props) {
   )
 }
 
-Checklist.propTypes = {
+ProcessItemPreview.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string,
     blurb: PropTypes.string,
