@@ -19,7 +19,7 @@ export default function Link(props) {
         title="Open external link"
         target="_blank"
         rel="noopener noreferrer"
-        style={{"white-space": "nowrap"}}
+        style={{"whiteSpace": "nowrap"}}
       >
         {props.text}
         <FontAwesomeIcon icon={ faExternalLinkAlt } className="ml-1" />

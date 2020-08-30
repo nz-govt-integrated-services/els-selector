@@ -1,0 +1,58 @@
+{
+  "question": "First question",
+  "answers": [
+    {
+      "answer": "First answer to first question",
+      "subquestion": {
+        "question": "Subquestion A",
+        "answers": [
+          {
+            "answer": "First answer to subquestion A",
+            "result": {
+              "text": "A result for picking the first answer to subquestion A"
+            }
+          },
+          {
+            "answer": "Second answer to subquestion A",
+            "subquestion": {
+              "question": "Subquestion B",
+              "answers": [
+                {
+                  "answer": "First answer to subquestion B",
+                  "result": {
+                    "options": [
+                      {
+                        "heading": "One option"
+                      },
+                      {
+                        "heading": "Another option"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "answer": "Second answer to subquestion B",
+                  "result": {
+                    "text": "A result"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "answer": "Second answer to first question",
+      "result": {
+        "text": "Result from second answer to first question"
+      }
+    },
+    {
+      "answer": "Third answer to first question",
+      "result": {
+        "text": "Result from third answer to first question"
+      }
+    }
+  ]
+}
