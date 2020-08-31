@@ -20,7 +20,7 @@ function HomePage() {
             <Link to="/decision-tree" className="link-not-blue">
               <div className="card">
                 <h4 className="card-header">What's the right early learning for you?</h4>
-                <div className="card-body">Find out which type of centre you should go to with our very cool and extremely interactive quiz.</div>
+                <div className="card-body">Find out which type of centre you should go to with our quiz.</div>
               </div>
             </Link>
           </div>
@@ -28,7 +28,7 @@ function HomePage() {
             <Link to="/table" className="link-not-blue">
               <div className="card">
                 <h4 className="card-header">Compare types of early learning service</h4>
-                <div className="card-body">Not sure where to start looking?</div>
+                <div className="card-body">Not sure what the difference between a playcentre and a playgroup is?</div>
               </div>
             </Link>
           </div>
