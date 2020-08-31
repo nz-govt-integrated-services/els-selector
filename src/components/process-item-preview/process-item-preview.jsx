@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './process-item-preview.scss';
+
 export default function ProcessItemPreview(props) {
   return (
     <div className={`card process-item-preview ${props.active && 'process-item-preview--active'}`} onClick={ () => props.onClick(props.index) }>

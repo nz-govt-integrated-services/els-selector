@@ -7,6 +7,8 @@ import Layer from '../layer/layer';
 import Result from '../result/result';
 import idSafeString from '../utils/idSafeString';
 
+import './decision-tree.scss';
+
 export default function DecisionTree(props) {
   const [selectedAnswers, setSelectedAnswers] = useState([]);
   const [layerCount, setLayerCount] = useState(1);

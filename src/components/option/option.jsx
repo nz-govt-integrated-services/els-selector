@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from '../link/link';
+import ExternalLink from '../external-link/external-link';
 
 export default function Option(props) {
   return (
@@ -35,7 +35,7 @@ export default function Option(props) {
             {props.links.map((link, index) => (
               <li key={index}>
                 <p>
-                  <Link href={link.href} text={link.text} />
+                  <ExternalLink href={link.href} text={link.text} />
                 </p>
               </li>
             ))}

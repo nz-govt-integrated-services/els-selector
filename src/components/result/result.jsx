@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from '../link/link';
+import ExternalLink from '../external-link/external-link';
 import Option from '../option/option';
 import idSafeString from '../utils/idSafeString';
 
@@ -33,7 +33,7 @@ export default function Result(props) {
             {props.links.map((link, index) => (
               <li key={index}>
                 <p>
-                  <Link href={link.href} text={link.text} />
+                  <ExternalLink href={link.href} text={link.text} />
                 </p>
               </li>
             ))}
