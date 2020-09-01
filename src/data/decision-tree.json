@@ -2,7 +2,7 @@
   "question": "",
   "answers": [
     {
-      "answer": "I want to drop off my child and have someone look after them",
+      "answer": "I need someone to provide education and care for my child during the day",
       "subquestion": {
         "question": "Where do you want the care to take place?",
         "answers": [
@@ -24,9 +24,15 @@
                         ]
                       },
                       {
-                        "heading": "Kōhanga Reo",
+                        "heading": "Te Kōhanga Reo",
+                        "text": "Te kōhanga reo is a full immersion te reo Māori whānau programme. This means more than 80% of the communication is in te reo Māori.",
                         "conditions": [
-                          "Whānau are more closely involved with a Kōhanga Reo than teacher-led services"
+                          "Ages: birth until age six",
+                          "Sessions: held regularly for no more than 4 hours per day",
+                          "Staff: parents and whānau volunteers",
+                          "Expectations of you and your whānau: Whānau are key and must have a vested interest in the promotion and survival of the Māori language and its cultural practices.",
+                          "Kōhanga Reo is not only a journey for the child but for the whole family. Kōhanga Reo offers courses for parents, through whānau learning as well as professional development for Kaiako(teachers), kaimahi and parents.",
+                          "In New Zealand, there are 440 Te Kōhanga Reo."
                         ],
                         "links": [
                           {
@@ -37,6 +43,15 @@
                             "text": "Find a Kōhanga Reo near you",
                             "href": "https://www.kohanga.ac.nz/te-reo/nga-koohanga-reo-tuwahi"
                           }
+                        ]
+                      },
+                      {
+                        "heading": "Ngā Puna Kōhungahunga",
+                        "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on learning te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only.</p><p>The main aim of a puna kōhungahunga is for whānau to get together and encourage tamariki to learn about the tikanga and reo of tangata whenua of the area, and to provide a learning environment that responds to the interests and learning needs of individual tamariki.</p>",
+                        "conditions": [
+                          "Sessions: held regularly for no more than 4 hours per day",
+                          "Staff: parents and whānau volunteers",
+                          "Expectations of you and your whānau: More than half the children attending must have a parent there with them."
                         ]
                       }
                     ]
@@ -52,7 +67,21 @@
                         "result": {
                           "options": [
                             {
-                              "heading": "Kindergarten"
+                              "heading": "Kindergarten",
+                              "conditions": [
+                                "Ages: Most cater for children aged between two-and-a-half and five years.",
+                                "Sessions: Most have morning and afternoon sessions, but others provide extended sessions or all day education and care",
+                                "Staff: Qualified and registered teachers.",
+                                "Expectations of you and your whānau: Local (parent/whānau) committees support teachers in each kindergarten, and raise local funds and resources to support the kindergarten. Parents are also asked for financial donations.",
+                                "Although the teachers have responsibility for the programme, you and your whānau are encouraged to participate in programmes, talk with staff, ask questions and offer information about your child.",
+                                "In New Zealand, there are 661 kindergartens."
+                              ],
+                              "links": [
+                               {
+                                  "text": "Find a Kindergarten near you",
+                                  "href": "https://nzkindergarten.org.nz/public/kindergarten-for-your-child/find-kindergarten-near-you/"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -62,8 +91,61 @@
                         "result": {
                           "options": [
                             {
-                              "heading": "Centre-based education and care services"
-                            }
+                              "heading": "Education and care services",
+                              "text": "<p>Education and care services offer a variety of services and philosophies. These include:</p><ul><li>all-day and part-day services;</li><li>sessional services that have sessions of a few hours per day or week;</li><li>Pacific language centres;</li><li>Montessori</li><li>Rudolf Steiner (Waldorf)</li><li>privately owned centres;</li><li>community-owned centres; and</li><li>ancillary centres attached to a business or an organisation (for example a gym crèche).</li></ul>",
+                              "conditions": [
+                                "Staff: Qualified and registered teacher. There should also be enough other educators with a range of qualifications and experience to ensure a safe learning environment for children.",
+                                "Expectations of you and your whānau: Parents/whānau usually pay fees for their child to attend education and care services. Parents are sometimes involved in the management of the centre."
+                              ]
+                            },
+                            {
+                              "heading": "Montessori",
+                              "text": "<p>Montessori early childhood centres focus on your child’s learning and self-discovery, and not on teachers “teaching”. This is achieved through adult observation and your child’s creative exploration of the Montessori materials and activities, not on plastic toys, puzzles, workbooks, etc. </p>",
+                              "conditions": [
+                                "Ages: Ages: birth to six years old, although a suggested approach is a three-year programme, from around three to six years of age. The children in a class are a mix of ages - e.g. not just three and four-year-olds.",
+                                "Sessions: Most have morning and afternoon sessions, but others provide extended sessions or all day education and care",
+                                "Staff: Qualified Montessori teacher",
+                                "Expectations of you and your whānau: Parent involvement is welcomed for specific times and community activities.",
+                                "In New Zealand, there are nearly 200 Montessori early childhood centres."
+                              ],
+                              "links": [
+                               {
+                                 "text": "Find out more about Montessori for children up to three years old",
+                                 "href": "https://www.montessori.org.nz/montessori/montessori-0-3-years/"
+                               },
+                              {
+                                 "text": "Find out more about Montessori for children between three and six years old",
+                                 "href": "https://www.montessori.org.nz/montessori/montessori-3-6-years/"
+                               },
+                                {
+                                 "text": "Read the Montessori Parent Guide",
+                                 "href": "https://www.montessori.org.nz/parents/parent-guide-3-6-years/"
+                               },
+                              {
+                                 "text": "Find a Montessori centre near you",
+                                 "href": "https://www.montessori.org.nz/parents/schools/"
+                               }
+                             ]
+                           },
+                           {
+                             "heading": "Rudolf Steiner (Waldorf) centres",
+                             "text": "<p>Steiner/Waldorf education addresses the whole child in the areas of thinking, feeling and willing through a play-based curriculum. The use of computers, electronic media, and television are therefore discouraged for young children.</p>",
+                             "conditions": [
+                               "Staff: Qualified and registered teacher",
+                               "Expectations of you and your whānau: Most Steiner education centres require regular donations.",
+                               "In New Zealand, there are 11 Steiner schools with attached kindergartens and 12 stand-alone kindergartens and early childhood centres"
+                             ],
+                             "links": [
+                               {
+                                 "text": "Find out more about Steiner education",
+                                 "href": "https://seanz.org/our-mandate/"
+                               },
+                               {
+                                 "text": "Find a Steiner centre near you",
+                                 "href": "http://seanz.org/directory/"
+                               }
+                            ]
+                           }
                           ]
                         }
                       }
@@ -75,7 +157,24 @@
                   "result": {
                     "options": [
                       {
-                        "heading": "Aoga"
+                        "heading": "Aoga",
+                        "text": "A’oga are Samoan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). ",
+                        "conditions": [
+                          "Sessions: all-day or part-day education and care",
+                          "Staff: Qualified and registered teacher",
+                          "Expectations of you and your whānau: You may be asked for a donation to support the group.",
+                          "In New Zealand, there are 16 aoga."
+                        ]
+                      },
+                      {
+                        "heading": "Akoteu",
+                        "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). ",
+                        "conditions": [
+                          "Sessions: all-day or part-day education and care",
+                          "Staff: Qualified and registered teacher",
+                          "Expectations of you and your whānau: You may be asked for a donation to support the group.",
+                          "In New Zealand, there are 12 akoteu."
+                        ]
                       }
                     ]
                   }
@@ -88,7 +187,14 @@
             "result": {
               "options": [
                 {
-                  "heading": "Home-based education and care"
+                  "heading": "Home-based education and care",
+                  "text": "Home-based education and care is provided for groups of up to 4 children.",
+                  "conditions": [
+                    "Ages: birth to 5 years",
+                    "Sessions: all-day or part-day education and care",
+                    "Staff: yourself (or an adult educator) in your own home. As an educator, you must belong to a licensed home-based care network. Qualified and registered teachers are employed as coordinators to support you. The home-based network coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                    "Expectations of you and your whānau: It is normal for you to be charged fees for your child's attendance."
+                  ]
                 }
               ]
             }
@@ -98,7 +204,15 @@
             "result": {
               "options": [
                 {
-                  "heading": "Home-based education and care"
+                  "heading": "Home-based education and care",
+                  "text": "Home-based education and care is provided for groups of up to 4 children.",
+                  "conditions": [
+                    "Ages: birth to 5 years",
+                    "Sessions: all-day or part-day education and care",
+                    "Staff: an adult educator in their home. Each educator must belong to a licensed home-based care network. Qualified and registered teachers are employed as coordinators to support the educators within each network. The home-based network coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                    "Expectations of you and your whānau: It is normal for you to be charged fees for your child's attendance.",
+                    "In New Zealand, there are 421 home-based education and care centres."
+                  ]
                 }
               ]
             }
@@ -116,7 +230,24 @@
             "result": {
               "options": [
                 {
-                  "heading": "Kōhanga Reo",
+                  "heading": "Puna Reo",
+                  "text": "Puna Reo are full immersion Te Reo Māori education and care services.",
+                  "conditions": [
+                    "Puna Reo have at least 50% qualified teachers on staff",
+                    "There are only thirteen Puna Reo in Aotearoa, compared to 460 Kōhanga Reo, so there may not be one near you"
+                  ]
+                },
+                {
+                  "heading": "Te Kōhanga Reo",
+                  "text": "Te kōhanga reo is a full immersion te reo Māori whānau programme. This means more than 80% of the communication is in te reo Māori.",
+                  "conditions": [
+                    "Ages: birth until age six",
+                    "Sessions: held regularly for no more than 4 hours per day",
+                    "Staff: parents and whānau volunteers",
+                    "Expectations of you and your whānau: Whānau are key and must have a vested interest in the promotion and survival of the Māori language and its cultural practices.",
+                    "Kōhanga Reo is not only a journey for the child but for the whole family. Kōhanga Reo offers courses for parents, through whānau learning as well as professional development for Kaiako(teachers), kaimahi and parents.",
+                    "In New Zealand, there are 440 Te Kōhanga Reo."
+                  ],
                   "links": [
                     {
                       "text": "Find out about Kōhanga Reo",
@@ -126,6 +257,15 @@
                       "text": "Find a Kōhanga Reo near you",
                       "href": "https://www.kohanga.ac.nz/te-reo/nga-koohanga-reo-tuwahi"
                     }
+                  ]
+                },
+                {
+                  "heading": "Ngā Puna Kōhungahunga",
+                  "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on learning te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only.</p><p>The main aim of a puna kōhungahunga is for whānau to get together and encourage tamariki to learn about the tikanga and reo of tangata whenua of the area, and to provide a learning environment that responds to the interests and learning needs of individual tamariki.</p>",
+                  "conditions": [
+                    "Sessions: held regularly for no more than 4 hours per day",
+                    "Staff: parents and whānau volunteers",
+                    "Expectations of you and your whānau: More than half the children attending must have a parent there with them."
                   ]
                 }
               ]
@@ -137,6 +277,13 @@
               "options": [
                 {
                   "heading": "Playcentre",
+                  "text": "Playcentres are parent cooperatives that offer learning through play.",
+                  "conditions": [
+                    "Ages: birth to school age",
+                    "Staff: parents, whānau and caregivers",
+                    "Expectations of you and your whānau: You are responsible for how the centre is managed and operated. Parents become members of their playcentre and most pay low fees to attend. Playcentres also provide educational programmes for parents/whānau to learn alongside their children. These programmes increase parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
+                    "In New Zealand, there are 404 playcentres"
+                  ],
                   "links": [
                     {
                       "text": "Find out more about Playcentres",
@@ -160,6 +307,12 @@
         "options": [
           {
             "heading": "Playgroup",
+            "text": "Playgroups are community-based groups run by parents and whānau volunteers. ",
+            "conditions": [
+              "Sessions: held regularly for no more than 4 hours per day",
+              "Staff: parents and whānau volunteers",
+              "Expectations of you and your whānau: To be a playgroup, more than half the children attending must have a parent there with them."
+            ],
             "links": [
               {
                 "text": "Different types of early learning service",
@@ -169,6 +322,15 @@
                 "text": "How to choose a playgroup",
                 "href": "https://www.myece.org.nz/ece-checklist-for-quality/262-playgroup-quality-friendships"
               }
+            ]
+          },
+          {
+            "heading": "Ngā Puna Kōhungahunga",
+            "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on learning te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only.</p><p>The main aim of a puna kōhungahunga is for whānau to get together and encourage tamariki to learn about the tikanga and reo of tangata whenua of the area, and to provide a learning environment that responds to the interests and learning needs of individual tamariki.</p>",
+            "conditions": [
+              "Sessions: held regularly for no more than 4 hours per day",
+              "Staff: parents and whānau volunteers",
+              "Expectations of you and your whānau: More than half the children attending must have a parent there with them."
             ]
           }
         ]
@@ -180,6 +342,7 @@
         "options": [
           {
             "heading": "Te Kura (the Correspondence School)",
+            "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service or kōhanga reo. Te Kura's early learning educators work with you to meet your child's early learning needs. They also have a range of books, puzzles, games and art materials you can borrow.",
             "links": [
               {
                 "text": "Find out more about Te Kura",
@@ -188,6 +351,16 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "answer": "I’m temporarily unable to send my child to an early childhood education centre because of COVID-19",
+      "result": {
+        "text": "<p>The Ministry of Education launched websites with resources to support parents and whānau, teachers and leaders, during COVID-19. </p><p>The Learning from Home website provides resources, guidance and information that support distance learning from early learning to senior secondary.</p>",
+        "links": [              {
+                "text": "Find out more about resources for supporting your child from home",
+                "href": "https://learningfromhome.govt.nz/resources?age=Early_Learning"
+              }]
       }
     }
   ]

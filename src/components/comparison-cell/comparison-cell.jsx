@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from '../link/link';
+import ExternalLink from '../external-link/external-link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle, faTimesCircle, faQuestionCircle, faMinusCircle } from '@fortawesome/free-solid-svg-icons'
@@ -32,7 +32,7 @@ export default function ComparisonCell(props) {
             <div className="small">
               {
                 props.links.map((link, index) => (
-                  <Link href={ link.href } text={ link.text } />
+                  <ExternalLink href={ link.href } text={ link.text } />
                 ))
               }
             </div>
