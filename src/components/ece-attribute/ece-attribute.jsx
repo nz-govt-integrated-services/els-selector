@@ -24,7 +24,7 @@ export default function EceAttribute(props) {
 
   return (
     <div class="row">
-      <div class="col-3">
+      <div class="col-3 d-flex justify-content-center">
         { <mappedType.icon data={props.data} /> }
       </div>
       <div class="col-9">

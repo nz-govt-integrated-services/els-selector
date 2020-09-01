@@ -1,20 +1,24 @@
+@import "../utils/colours";
+
 .ages-circle {
   display: inline-block;
   height: 1em;
   width: 1em;
   padding: 0.5em;
   border-radius: 2em;
-  // font-size: 0.5rem;
   color: transparent;
   transition: 1s ease-in-out;
+  border: 1px solid #aaa;
   &--always {
     background-color: var(--green);
+    border-color: var(--green);
   }
   &--sometimes {
-    background-color: var(--orange);
+    background-color: rgba($green, 0.3);
+    border-color: var(--green);
   }
   &--never {
-    background-color: var(--red);
+    background-color: transparent;
   }
   // todo: maths
   &:nth-of-type(1) {
@@ -43,6 +47,7 @@
   }
   &__container {
     transform: translate(0, 3em);
+    transition: 1s ease-in-out;
     &.not-transformed, .not-transformed & {
       transform: none !important;
     }
