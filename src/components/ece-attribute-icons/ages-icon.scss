@@ -1,11 +1,12 @@
 .ages-circle {
   display: inline-block;
-  height: 2em;
-  width: 2em;
+  height: 1em;
+  width: 1em;
   padding: 0.5em;
   border-radius: 2em;
-  margin-right: 0.5em;
-  font-size: 0.5rem;
+  // font-size: 0.5rem;
+  color: transparent;
+  transition: 1s ease-in-out;
   &--always {
     background-color: var(--green);
   }
@@ -15,25 +16,35 @@
   &--never {
     background-color: var(--red);
   }
+  // todo: maths
   &:nth-of-type(1) {
-    transform: translate(2.4em, 0);
+    transform: translate(0, 0);
   }
   &:nth-of-type(2) {
-    transform: translate(1.4em, -1.5em);
+    transform: translate(-0.5em, -1.4em);
   }
   &:nth-of-type(3) {
-    transform: translate(1em, -2.3em);
+    transform: translate(-0.4em, -2.5em);
   }
   &:nth-of-type(4) {
-    transform: translate(0.7em, -2.6em);
+    transform: translate(0, -3em);
   }
   &:nth-of-type(5) {
-    transform: translate(0.3em, -2.3em);
+    transform: translate(0.4em, -2.5em);
   }
   &:nth-of-type(6) {
-    transform: translate(-0.2em, -1.5em);
+    transform: translate(0.5em, -1.4em);
   }
   &:nth-of-type(7) {
-    transform: translate(-1.2em, 0);
+    transform: translate(0, 0);
+  }
+  &.not-transformed, .not-transformed & {
+    transform: none !important;
+  }
+  &__container {
+    transform: translate(0, 3em);
+    &.not-transformed, .not-transformed & {
+      transform: none !important;
+    }
   }
 }

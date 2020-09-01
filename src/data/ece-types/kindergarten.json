@@ -8,7 +8,7 @@
     {
       "type": "ages",
       "data": {
-        "always": { "from": 2.5, "to": 5 },
+        "always": { "from": 2, "to": 5 },
         "sometimes": { "from": 0, "to": 6 }
       },
       "text": "Most cater for children aged between two-and-a-half and five years."
