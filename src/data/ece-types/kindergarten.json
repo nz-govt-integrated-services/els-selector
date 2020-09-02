@@ -43,8 +43,8 @@
     {
       "type": "parent-involvement",
       "data": {
-        "always": {"minimum_percent": "20" },
-        "sometimes": {"minimum_percent": "40"}
+        "always": {"minimum_percent": 20 },
+        "sometimes": {"minimum_percent": 40 }
       },
       "text": "Local (parent/whānau) committees support teachers in each kindergarten, and raise local funds and resources to support the kindergarten. Parents are also asked for financial donations. "
     }
