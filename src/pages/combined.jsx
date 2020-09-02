@@ -7,6 +7,7 @@ import EceType from '../components/ece-type/ece-type';
 import DECISIONTREE_DATA from '../data/decision-tree.json';
 import TABLE_DATA from '../data/table-data.json';
 import KINDERGARTEN_DATA from '../data/ece-types/kindergarten.json';
+import KOHANGA_DATA from '../data/ece-types/kohanga.json';
 
 function CombinedPage() {
   return (
@@ -14,6 +15,7 @@ function CombinedPage() {
       <NavBar />
       <div className="container">
         <EceType data={KINDERGARTEN_DATA} />
+        <EceType data={KOHANGA_DATA} />
           <DecisionTree
                   data={DECISIONTREE_DATA}
                   resultHeading={"Based on your results..."}

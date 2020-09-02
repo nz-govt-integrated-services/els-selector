@@ -14,6 +14,7 @@ export default function EceAttribute(props) {
   const typeMap = {
     ages: {heading: "Ages", icon: AgesIcon},
     cost: {heading: "Cost", icon: CostIcon},
+    language: {heading: "Language", icon: LanguageIcon},
     "number-of-centres": {heading: "Number of centres in New Zealand", icon: NumberOfCentresIcon},
     "parent-involvement": {heading: "Expectations of you and your whānau", icon: ParentInvolvementIcon},
     "session-length": {heading: "Session length", icon: SessionLengthIcon},

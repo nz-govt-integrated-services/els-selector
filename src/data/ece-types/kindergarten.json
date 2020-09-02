@@ -15,6 +15,7 @@
     },
     {
       "type": "cost",
+      "text": "Kindergartens are one of the lowest-cost options, but they do usually expect a contribution from parents.",
       "data": {
         "always": { "from": 0, "to": 1 },
         "sometimes": { "from": 1, "to": 2 }
@@ -30,6 +31,7 @@
     },
     {
       "type": "teacher-qualifications",
+      "text": "The Kindergarten Association requires that all teachers at a kindergarten hold a current qualification in early childhood education.",
       "data": {
         "always": { "minimum_percent_qualified": 100 }
       }

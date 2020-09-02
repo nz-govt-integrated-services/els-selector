@@ -1,0 +1,17 @@
+.language-icon {
+  &__bubble {
+    margin-right: 0.2em;
+  }
+  &--0 {
+    color: var(--ripelime);
+    & .language-icon__name {
+      color: var(--ripelime--deep);
+    }
+  }
+  &--1 {
+    color: var(--impendingstorm);
+    & .language-icon__name {
+      color: var(--impendingstorm--deep);
+    }
+  }
+}
