@@ -1,0 +1,19 @@
+@import "../utils/colours";
+
+.language-icon {
+  &__bubble {
+    margin-right: 0.2em;
+  }
+  &--0 {
+    color: var(--green);
+    & .language-icon__name {
+      color: darken($green, 20);
+    }
+  }
+  &--1 {
+    color: var(--impendingstorm);
+    & .language-icon__name {
+      color: var(--impendingstorm--deep);
+    }
+  }
+}

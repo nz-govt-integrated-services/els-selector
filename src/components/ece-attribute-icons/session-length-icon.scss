@@ -1,0 +1,18 @@
+@import "../utils/colours";
+
+.session-length-icon {
+  stroke-width: 1px;
+  stroke: white;
+  &--always {
+    fill: rgba($green, 0.8);
+    stroke: var(--green);
+  }
+  &--sometimes {
+    fill: rgba($green, 0.3);
+    stroke: var(--green);
+  }
+  &--never {
+    fill: transparent;
+    stroke: #aaa;
+  }
+}
