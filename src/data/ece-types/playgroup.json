@@ -1,0 +1,52 @@
+{
+  "title": "Playgroup",
+  "text": "Playgroups are community-based groups run by parents and whānau volunteers. ",
+  "links": [
+    {
+      "text": "Different types of early learning service",
+      "href": "https://parents.education.govt.nz/early-learning/early-childhood-education/different-kinds-of-early-childhood-education/"
+    },
+    {
+      "text": "How to choose a playgroup",
+      "href": "https://www.myece.org.nz/ece-checklist-for-quality/262-playgroup-quality-friendships"
+    }
+  ],
+  "attributes": [
+    {
+      "type": "ages",
+      "data": {
+        "sometimes": { "from": 0, "to": 6 }
+      },
+      "text": ""
+    },
+    {
+      "type": "cost",
+      "text": "Playgroups are usually free or low-cost.",
+      "data": {
+        "sometimes": { "from": 0, "to": 1 }
+      }
+    },
+    {
+      "type": "session-length",
+      "data": {
+        "always": { "from": 0, "to": 2 }
+      },
+      "text": "Playgroups may not operate for longer than three hours a day."
+    },
+    {
+      "type": "teacher-qualifications",
+      "text": "Playgroups are run by parents and whānau volunteers; there are no requirements for teacher qualifications.",
+      "data": {
+        "always": { "minimum_percent_qualified": 0 }
+      }
+    },
+    {
+      "type": "parent-involvement",
+      "data": {
+        "always": {"minimum_percent": 60 },
+        "sometimes": {"minimum_percent": 100 }
+      },
+      "text": "To be a playgroup, more than half the children attending must have a parent there with them."
+    }
+  ]
+}

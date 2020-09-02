@@ -2,13 +2,14 @@
 
 .ages-circle {
   display: inline-block;
-  height: 1em;
-  width: 1em;
-  padding: 0.5em;
+  height: 10px;
+  width: 10px;
+  padding: 5px;
   border-radius: 2em;
   color: transparent;
   transition: 1s ease-in-out;
   border: 1px solid #aaa;
+  flex-shrink: 1;
   &--always {
     background-color: var(--green);
     border-color: var(--green);
@@ -48,6 +49,9 @@
   &__container {
     transform: translate(0, 3em);
     transition: 1s ease-in-out;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
     &.not-transformed, .not-transformed & {
       transform: none !important;
     }

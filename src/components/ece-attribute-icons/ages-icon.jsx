@@ -15,7 +15,6 @@ export default function AgesIcon(props) {
           <span
             class={`ages-circle ages-circle--${inRange(startAge, props.data.always) ? 'always' : (inRange(startAge, props.data.sometimes) ? 'sometimes' : 'never')}`}
           >
-            { startAge }
           </span>
         ))
       }

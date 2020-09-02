@@ -1,11 +1,13 @@
+@import "../utils/colours";
+
 .language-icon {
   &__bubble {
     margin-right: 0.2em;
   }
   &--0 {
-    color: var(--ripelime);
+    color: var(--green);
     & .language-icon__name {
-      color: var(--ripelime--deep);
+      color: darken($green, 20);
     }
   }
   &--1 {

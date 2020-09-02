@@ -25,10 +25,10 @@ export default function EceAttribute(props) {
 
   return (
     <div class="row mb-3">
-      <div class="col-3 d-flex justify-content-center">
+      <div class="col-1 d-flex justify-content-center">
         { <mappedType.icon data={props.data} /> }
       </div>
-      <div class="col-9">
+      <div class="col-11">
         <h3>{ mappedType.heading }</h3>
         <p>{ props.text }</p>
       </div>
