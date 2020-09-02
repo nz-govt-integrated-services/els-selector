@@ -44,13 +44,19 @@ export default function Result(props) {
         props.options.length >= 1 && (
           <div className="result__options">
             {props.options.map((option) => (
-              <Option
-                heading={option.heading}
-                text={option.text}
-                links={option.links}
-                conditions={option.conditions}
-                id={`result-option-${idSafeString(option.heading)}`}
-              />
+              <div>
+                if(option.eceType) {
+                  <span>tbc</span>
+                } else {
+                  <Option
+                    heading={option.heading}
+                    text={option.text}
+                    links={option.links}
+                    conditions={option.conditions}
+                    id={`result-option-${idSafeString(option.heading)}`}
+                  />
+                }
+              </div>
             ))}
           </div>
         )

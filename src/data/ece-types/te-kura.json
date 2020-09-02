@@ -1,0 +1,72 @@
+{
+  "title": "Te Kura (The Correspondence School)",
+  "text": "Lorem ipsum",
+  "links": [
+    {
+      "text": "Link one",
+      "href": "https://www.google.com"
+    },
+    {
+      "text": "Link two",
+      "href": "https://www.govt.nz"
+    }
+  ],
+  "attributes": [
+    {
+      "type": "ages",
+      "text": "Text about ages",
+      "data": {
+        "always": { "from": 3, "to": 4 },
+        "sometimes": { "from": 2, "to": 6 }
+      }
+    },
+    {
+      "type": "cost",
+      "text": "Text about cost",
+      "data": {
+        "always": { "from": 0, "to": 1 },
+        "sometimes": { "from": 1, "to": 2 }
+      }
+    },
+    {
+      "type": "teacher-qualifications",
+      "text": "Qualifications",
+      "data": {
+        "always": { "minimum_percent_qualified": 50 }
+      }
+    },
+    {
+      "type": "number-of-centres",
+      "data": {
+        "number": 100
+      }
+    },
+    {
+      "type": "parent-involvement",
+      "text": "Text about parent involvement",
+      "data": {
+        "always": {"minimum_percent": 30 },
+        "sometimes": {"minimum_percent": 50 }
+      }
+    },
+    {
+      "type": "language",
+      "text": "Text about language",
+      "data": {
+        "languages": [
+          { "name": "Te Reo Māori", "proportion": 0.4 },
+          { "name": "English", "proportion": 0.3 },
+          { "name": "NZSL", "proportion": 0.3 }
+        ]
+      }
+    },
+    {
+      "type": "session-length",
+      "text": "Text about session length",
+      "data": {
+        "always": { "from": 0, "to": 2 },
+        "sometimes": { "from": 0, "to": 6 }
+      }
+    }
+  ]
+}

@@ -16,12 +16,8 @@
                   "result": {
                     "options": [
                       {
-                        "heading": "Puna Reo",
-                        "text": "Puna Reo are full immersion Te Reo Māori education and care services.",
-                        "conditions": [
-                          "Puna Reo have at least 50% qualified teachers on staff",
-                          "There are only thirteen Puna Reo in Aotearoa, compared to 460 Kōhanga Reo, so there may not be one near you"
-                        ]
+                        "eceType": "puna-reo",
+                        "eceTypeSource": "puna-reo.json"
                       },
                       {
                         "heading": "Te Kōhanga Reo",

@@ -9,6 +9,7 @@ import TABLE_DATA from '../data/table-data.json';
 import KINDERGARTEN_DATA from '../data/ece-types/kindergarten.json';
 import KOHANGA_DATA from '../data/ece-types/kohanga.json';
 import PLAYGROUP_DATA from '../data/ece-types/playgroup.json';
+import TEMPLATE_DATA from '../data/ece-types/template.json';
 
 function CombinedPage() {
   return (
@@ -18,6 +19,7 @@ function CombinedPage() {
         <EceType data={KINDERGARTEN_DATA} />
         <EceType data={KOHANGA_DATA} />
         <EceType data={PLAYGROUP_DATA} />
+        <EceType data={TEMPLATE_DATA} />
           <DecisionTree
                   data={DECISIONTREE_DATA}
                   resultHeading={"Based on your results..."}
