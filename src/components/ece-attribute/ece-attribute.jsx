@@ -23,7 +23,7 @@ export default function EceAttribute(props) {
   const mappedType = typeMap[props.type]
 
   return (
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-3 d-flex justify-content-center">
         { <mappedType.icon data={props.data} /> }
       </div>
