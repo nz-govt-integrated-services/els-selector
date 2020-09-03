@@ -16,16 +16,13 @@ export default function NavBar(props) {
             <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <Link to="/combined" className="nav-link">Combined</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/table" className="nav-link">Table</Link>
+            <Link to="/process" className="nav-link">Process</Link>
           </li>
           <li className="nav-item">
             <Link to="/decision-tree" className="nav-link">Decision tree</Link>
           </li>
           <li className="nav-item">
-            <Link to="/process" className="nav-link">Process</Link>
+            <Link to="/table" className="nav-link">Table</Link>
           </li>
         </ul>
       </div>
