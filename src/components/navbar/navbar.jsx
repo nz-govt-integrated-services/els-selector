@@ -8,7 +8,7 @@ export default function NavBar(props) {
 
   return(
     <nav className="navbar navbar-expand-lg navbar-dark bg-impendingstorm--deep">
-      <a className="navbar-brand" href="#">Start Well</a>
+      <NavLink exact to="/" className="navbar-brand" activeClassName="active">Start Well</NavLink>
       <button className="navbar-toggler"
               type="button"
               data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -21,9 +21,6 @@ export default function NavBar(props) {
 
       <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
-            <NavLink exact to="/" className="nav-link" activeClassName="active">Home</NavLink>
-          </li>
           <li className="nav-item">
             <NavLink to="/process" className="nav-link" activeClassName="active">Process</NavLink>
           </li>
