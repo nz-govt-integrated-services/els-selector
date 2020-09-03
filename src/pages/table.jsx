@@ -8,10 +8,10 @@ function TablePage() {
   return (
     <div>
       <NavBar />
-      <div className="container-responsive pt-4 mt-4">
+      <div className="container-responsive px-2 py-2 mt-4">
         <div className="row pb-2">
           <div className="col-lg-12">
-            <h1>Comparison table</h1>
+            <h1 className="mb-4">Comparison table</h1>
           </div>
         </div>
         <div className="row">
