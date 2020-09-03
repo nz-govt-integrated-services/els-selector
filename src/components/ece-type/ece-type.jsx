@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ExternalLink from '../external-link/external-link';
 
 import EceAttribute from '../ece-attribute/ece-attribute';
 

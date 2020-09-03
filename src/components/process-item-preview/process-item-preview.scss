@@ -15,4 +15,24 @@
       width: 100%;
     }
   }
+  &--0 {
+    &.process-item-preview--active .card-header {
+      background-color: var(--impendingstorm);
+    }
+  }
+  &--1 {
+    &.process-item-preview--active .card-header {
+      background-color: var(--ripelime);
+    }
+  }
+  &--2 {
+    &.process-item-preview--active .card-header {
+      background-color: var(--sunnydaysky);
+    }
+  }
+  &--3 {
+    &.process-item-preview--active .card-header {
+      background-color: var(--latte);
+    }
+  }
 }

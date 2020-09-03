@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ExternalLink from '../external-link/external-link';
 
 import AgesIcon from '../ece-attribute-icons/ages-icon';
 import CostIcon from '../ece-attribute-icons/cost-icon';
