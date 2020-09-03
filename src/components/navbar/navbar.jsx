@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar(props) {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -21,17 +21,17 @@ export default function NavBar(props) {
 
       <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+          <li className="nav-item">
+            <NavLink exact to="/" className="nav-link" activeClassName="active">Home</NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/process" className="nav-link">Process</Link>
+            <NavLink to="/process" className="nav-link" activeClassName="active">Process</NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/decision-tree" className="nav-link">Decision tree</Link>
+            <NavLink to="/decision-tree" className="nav-link" activeClassName="active">Decision tree</NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/table" className="nav-link">Table</Link>
+            <NavLink to="/table" className="nav-link" activeClassName="active">Table</NavLink>
           </li>
         </ul>
       </div>
