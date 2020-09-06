@@ -5,8 +5,8 @@ import './number-of-centres-icon.scss';
 
 export default function NumberOfCentresIcon(props) {
   return (
-    <div class="number-of-centres-icon">
-      <span class="number-of-centres-icon__number">
+    <div className="number-of-centres-icon">
+      <span className="number-of-centres-icon__number">
         {props.data.number}
       </span>
     </div>

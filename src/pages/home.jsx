@@ -7,6 +7,7 @@ function HomePage() {
     <div>
       <NavBar />
       <div className="container">
+        <h1>Early learning services in New Zealand</h1>
         <div className="row mt-4 pt-4">
           <div className="col-lg-4 py-4">
             <Link to="/process" className="link-not-blue">

@@ -9,11 +9,11 @@ export default function AgesIcon(props) {
   }
 
   return (
-    <div class="ages-circle__container">
+    <div className="ages-circle__container">
       {
         [0,1,2,3,4,5,6].map(startAge => (
           <span
-            class={`ages-circle ages-circle--${inRange(startAge, props.data.always) ? 'always' : (inRange(startAge, props.data.sometimes) ? 'sometimes' : 'never')}`}
+            className={`ages-circle ages-circle--${inRange(startAge, props.data.always) ? 'always' : (inRange(startAge, props.data.sometimes) ? 'sometimes' : 'never')}`}
           >
           </span>
         ))

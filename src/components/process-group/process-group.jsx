@@ -29,7 +29,7 @@ export default function ProcessGroup(props) {
               />
               {
                 index !== (props.checklists.length - 1) && (
-                  <div class="checklist__arrow">
+                  <div className="checklist__arrow">
                     <FontAwesomeIcon icon={faGreaterThan} />
                   </div>
                 )

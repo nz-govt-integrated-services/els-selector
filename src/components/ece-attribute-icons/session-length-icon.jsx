@@ -37,7 +37,7 @@ export default function SessionLengthIcon(props) {
         [0,1,2,3,4,5,6,7,8,9,10,11].map(startHour => (
           <path
             d={getSectorPath(outerDiameter / 2, outerDiameter / 2, outerDiameter, startDegreeForHour(startHour), endDegreeForHour(startHour))}
-            class={`session-length-icon session-length-icon--${inRange(startHour, props.data.always) ? 'always' : (inRange(startHour, props.data.sometimes) ? 'sometimes' : 'never')}`}
+            className={`session-length-icon session-length-icon--${inRange(startHour, props.data.always) ? 'always' : (inRange(startHour, props.data.sometimes) ? 'sometimes' : 'never')}`}
             id={`session-${startHour}-${startDegreeForHour(startHour)}__${endDegreeForHour(startHour)}`}
             />
         ))

@@ -32,7 +32,7 @@ export default function ComparisonCell(props) {
             <div className="small">
               {
                 props.links.map((link, index) => (
-                  <ExternalLink href={ link.href } text={ link.text } />
+                  <ExternalLink href={ link.href } text={ link.text } key={ `${link.href}-${link.text}` } />
                 ))
               }
             </div>
