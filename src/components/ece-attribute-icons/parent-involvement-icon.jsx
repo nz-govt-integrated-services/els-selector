@@ -9,11 +9,11 @@ export default function ParentInvolvementIcon(props) {
   }
 
   return (
-    <div class="involvement-icon__container">
+    <div className="involvement-icon__container">
       {
         [100,80,60,40,20,0].map(involvementLevel => (
           <span
-            class={`involvement-icon involvement-icon--${inRange(involvementLevel, props.data.always.minimum_percent) ? 'always' : (inRange(involvementLevel, props.data.sometimes.minimum_percent) ? 'sometimes' : 'never')}`}
+            className={`involvement-icon involvement-icon--${inRange(involvementLevel, props.data.always.minimum_percent) ? 'always' : (inRange(involvementLevel, props.data.sometimes.minimum_percent) ? 'sometimes' : 'never')}`}
           >
           </span>
         ))

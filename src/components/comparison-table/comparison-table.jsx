@@ -18,7 +18,9 @@ export default function ComparisonTable(props) {
             <th className="border-0" />
             {
               props.data.categories.map((category, index) => (
-                <th colspan={category.members.length} className="text-center">
+                <th colSpan={category.members.length}
+                    className="text-center"
+                    key={`category-${category.name}`}>
                   {category.name}
                 </th>
               ))
@@ -28,7 +30,8 @@ export default function ComparisonTable(props) {
             <th />
             {
               typeOrder().map((type, index) => (
-                <th className="text-center">
+                <th className="text-center"
+                    key={`type-${props.data.types[type].name}`}>
                   { props.data.types[type].name }
                 </th>
               ))
@@ -38,7 +41,7 @@ export default function ComparisonTable(props) {
         <tbody>
           {
             props.data.attributes.map((attribute, index) => (
-              <tr>
+              <tr key={`attribute-${attribute.name}`}>
                 <td className="font-weight-bold">
                   {attribute.name}
                 </td>
@@ -48,6 +51,7 @@ export default function ComparisonTable(props) {
                       value = { attribute.values[type] && attribute.values[type].value }
                       notes = { attribute.values[type] && attribute.values[type].notes }
                       links = { attribute.values[type] && attribute.values[type].links }
+                      key = { `attribute-${attribute.name}-type-${props.data.types[type].name}` }
                     />
                   ))
                 }

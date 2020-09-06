@@ -1,31 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar(props) {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
   return(
     <nav className="navbar navbar-expand-lg navbar-dark bg-impendingstorm--deep">
-      <a className="navbar-brand" href="#">Start Well</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <NavLink exact to="/" className="navbar-brand" activeClassName="active">Start Well</NavLink>
+      <button className="navbar-toggler"
+              type="button"
+              data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-label="Toggle navigation"
+              aria-expanded={!isNavCollapsed ? true : false}
+              onClick={handleNavCollapse}>
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+          <li className="nav-item">
+            <NavLink to="/process" className="nav-link" activeClassName="active">Process</NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/combined" className="nav-link">Combined</Link>
+            <NavLink to="/decision-tree" className="nav-link" activeClassName="active">Decision tree</NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/table" className="nav-link">Table</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/decision-tree" className="nav-link">Decision tree</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/process" className="nav-link">Process</Link>
+            <NavLink to="/table" className="nav-link" activeClassName="active">Table</NavLink>
           </li>
         </ul>
       </div>

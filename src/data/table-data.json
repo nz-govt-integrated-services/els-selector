@@ -35,29 +35,24 @@
         "playgroup": {"value": "false"},
         "puna_kōhungahunga": {"value": "true"},
         "te_kura": {"value": "false"},
-        "akoteu": {"value": "false", "notes": "Tongan language immersion"}
+        "akoteu": {"value": "false", "notes": "Tongan language immersion"},
+        "home_based": {"value": "false"}
       }
     },
     {
       "name": "Always led by qualified teachers",
       "values": {
-        "kohanga": {
-          "value": "partial",
-          "notes": "Kaiako usually qualified in Te Reo Māori"
-        },
-        "playcentre": {
-          "value": "false"
-        },
-        "playgroup": {
-          "value": "false"
-        },
+        "kohanga": {"value": "partial","notes": "Kaiako usually qualified in Te Reo Māori"},
+        "playcentre": {"value": "false"},
+        "playgroup": {"value": "false"},
         "kindergarten": {"value": "true", "notes": "100% qualified teachers"},
         "aoga": {"value": "true"},
         "puna_kōhungahunga": {"value": "false"},
         "montessori": {"value": "true"},
         "steiner": {"value": "true"},
         "te_kura": {"value": "true"},
-        "akoteu": {"value": "true"}
+        "akoteu": {"value": "true"},
+        "home_based": {"value": "true"}
       }
     },
     {
@@ -71,7 +66,8 @@
         "te_kura": {"notes": "1"},
         "akoteu": {"notes": "12"},
         "playcentre": {"notes": "404"},
-        "playgroup": {"value": "unknown", "notes": "Playgroups are license-exempt"}
+        "playgroup": {"value": "unknown", "notes": "Playgroups are license-exempt"},
+        "home_based": {}
       }
     },
     {
@@ -86,7 +82,8 @@
         "akoteu": {},
         "playcentre": {"notes": "0 - 6"},
         "puna_kōhungahunga": {},
-        "playgroup": {}
+        "playgroup": {},
+        "home_based": {"notes": "0 - 6"}
       }
     },
     {
@@ -101,7 +98,8 @@
         "akoteu": {"value": "true"},
         "playcentre": {"value": "true"},
         "puna_kōhungahunga": {"value": "true"},
-        "playgroup": {"value": "true"}
+        "playgroup": {"value": "true"},
+        "home_based": {"value": "true"}
       }
     },
     {
@@ -116,7 +114,8 @@
         "akoteu": {},
         "playcentre": {},
         "puna_kōhungahunga": {},
-        "playgroup": {}
+        "playgroup": {},
+        "home_based": {}
       }
     },
     {
@@ -131,7 +130,8 @@
         "akoteu": {},
         "playcentre": {"notes": "Administered by..."},
         "puna_kōhungahunga": {},
-        "playgroup": {"notes": "Playgroups are usually run by community organisations"}
+        "playgroup": {"notes": "Playgroups are usually run by community organisations"},
+        "home_based": {}
       }
     }
   ]

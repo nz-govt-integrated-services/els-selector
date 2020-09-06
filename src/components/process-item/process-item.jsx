@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './process-item.scss';
+
 export default function ProcessItem(props) {
   return (
     <div className="border p-4 process-item">

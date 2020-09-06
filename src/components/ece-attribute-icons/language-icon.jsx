@@ -9,14 +9,14 @@ import { faComment } from '@fortawesome/free-solid-svg-icons'
 export default function LanguageIcon(props) {
   const baseSize = 3;
   return (
-    <div class="language-icon__container">
+    <div className="language-icon__container">
       {
         props.data.languages.map((language, index) => (
-          <div class={`language-icon language-icon--${index}`}>
-            <span class="language-icon__bubble">
+          <div className={`language-icon language-icon--${index}`}>
+            <span className="language-icon__bubble">
               <FontAwesomeIcon icon={faComment} style={{"font-size": `${(baseSize*language.proportion)}em`}} />
             </span>
-            <span class="language-icon__name">
+            <span className="language-icon__name">
               {language.name}
             </span>
           </div>
