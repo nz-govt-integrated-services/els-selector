@@ -6,9 +6,9 @@ function HomePage() {
   return (
     <div>
       <NavBar />
-      <div className="container">
+      <div className="container py-4">
         <h1>Early learning services in New Zealand</h1>
-        <div className="row mt-4 pt-4">
+        <div className="row mt-4">
           <div className="col-lg-4 py-4">
             <Link to="/process" className="link-not-blue">
               <div className="card">
