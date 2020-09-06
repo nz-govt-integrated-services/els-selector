@@ -30,6 +30,9 @@ export default function NavBar(props) {
           <li className="nav-item">
             <NavLink to="/table" className="nav-link" activeClassName="active">Table</NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink to="/financial-help" className="nav-link" activeClassName="active">Financial help</NavLink>
+          </li>
         </ul>
       </div>
     </nav>
