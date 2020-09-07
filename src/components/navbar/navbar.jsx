@@ -25,7 +25,7 @@ export default function NavBar(props) {
             <NavLink to="/process" className="nav-link" activeClassName="active">Process</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/decision-tree" className="nav-link" activeClassName="active">Cool quiz</NavLink>
+            <NavLink to="/decision-tree" className="nav-link" activeClassName="active">Decision tree</NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/table" className="nav-link" activeClassName="active">Table</NavLink>
