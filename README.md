@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the repository for a prototype of a service to help parents choose an early learning service. It is a `create-react-app` application.
 
-## Available Scripts
+This is deployed using GitHub Pages. When a pull request is merged to master, it will be automatically deployed.
 
-In the project directory, you can run:
+### Decision tree
 
-### `yarn start`
+Data for the decision tree is in `src/data/decision-tree.json`. The decision tree component is based off the [React Decision Tree](https://github.com/maia-miller/react-decision-tree#readme) component - the data format for that component is documented there.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Table
 
-### `yarn test`
+Data for the table is in `src/data/table-data.json`.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`categories` (array of objects)
+  The top header row of the table contains the categories. They are in the order defined here, and this defines the order of the `types` - types with no category are listed last.
 
-### `yarn build`
+  Each category has:
+    - `name` (string): name of category
+    - `members` (array): types of ELS that are included in this category, should match keys from `types`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`types` (object)
+  The second header row of the table contains the types. Keys are reused in `categories` and `attributes`.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  - `name` (string): name of type
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`attributes` (array of objects)
+  Each attribute creates a new row in the table body. 
 
-### `yarn eject`
+  Each attribute has:
+    - `name` (string): name of attribute
+    - `values`: object
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  An attribute `value` for an ELS `type` can have:
+    - `value` (string, optional) - can be `true`, `false`, `partial`, `unknown`
+    - `notes` (string, optional) - this is the text in the cell
+    - `links` (array, optional) - list of links to include, `{"text": "", "href": ""}`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Setup
 
-## Learn More
+This application requires [Node](https://nodejs.org/en/) and [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`yarn install`
 
-### Code Splitting
+To run the app:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`yarn start`
 
-### Analyzing the Bundle Size
+To run tests:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+`yarn test`
