@@ -40,19 +40,19 @@
       }
     },
     {
-      "name": "Always led by qualified teachers",
+      "name": "At least one qualified teacher",
       "values": {
         "kohanga": {"value": "partial","notes": "Kaiako usually qualified in Te Reo Māori"},
-        "playcentre": {"value": "false"},
+        "playcentre": {"value": "partial"},
         "playgroup": {"value": "false"},
-        "kindergarten": {"value": "true", "notes": "100% qualified teachers"},
+        "kindergarten": {"value": "true", "notes": "All staff qualified"},
         "aoga": {"value": "true"},
         "puna_kōhungahunga": {"value": "false"},
         "montessori": {"value": "true"},
         "steiner": {"value": "true"},
         "te_kura": {"value": "true"},
         "akoteu": {"value": "true"},
-        "home_based": {"value": "true"}
+        "home_based": {"value": "partial", "notes":"Educators are supervised by a qualified ECE teacher"}
       }
     },
     {
