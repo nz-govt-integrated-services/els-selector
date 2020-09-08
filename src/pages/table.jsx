@@ -8,17 +8,11 @@ function TablePage() {
   return (
     <div>
       <NavBar />
-      <div className="container mt-4">
-        <div className="row pb-2">
-          <div className="col-lg-12">
-            <h1 className="mb-4">Comparison table</h1>
-            <p>This is a table to compare different types of ECE.</p>
-          </div>
-        </div>
-      </div>
       <div className="container-responsive px-4 py-2 mt-4 overflow-hidden">
         <div className="row">
           <div className="col-lg-12">
+            <h1 className="mb-4">Comparison table</h1>
+            <p>This is a table to compare different types of ECE.</p>
             <ComparisonTable
             data={TABLE_DATA}
             />
