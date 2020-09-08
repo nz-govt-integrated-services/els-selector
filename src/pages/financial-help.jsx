@@ -8,7 +8,7 @@ function FinancialHelpPage() {
       <div className="container py-4">
         <div className="row">
           <div className="col-12">
-            <h1>What financial help could you get?</h1>
+            <h1 className="mb-4">What financial help could you get?</h1>
             <ul>
               <li>20 Hours Free ECE</li>
               <li>Childcare Subsidy</li>

@@ -11,7 +11,7 @@ function DecisionTreePage() {
       <div className="container py-4">
         <div className="row">
           <div className="col-12">
-            <h1>What type of early learning service is right for you?</h1>
+            <h1 className="mb-4">What type of early learning service is right for you?</h1>
             <p>Lorem ipsum dolor sit amet...</p>
           </div>
         </div>
