@@ -9,7 +9,7 @@ export default function AgesIcon(props) {
   }
 
   return (
-    <div className="ages-circle__container">
+    <div className="ages-circle__container scale-small pt-4 pr-2 pl-0">
       {
         [0,1,2,3,4,5,6].map(startAge => (
           <span

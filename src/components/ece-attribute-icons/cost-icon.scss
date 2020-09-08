@@ -1,20 +1,15 @@
 @import "../utils/colours";
 
 .cost-icon {
-  width: 2em;
-  height: 0.5em;
-  display: block;
-  margin-bottom: 0.2em;
-  border: 1px solid #aaa;
+  font-weight: bold;
+  font-size: 1.2em;
   &--always {
-    background-color: var(--green);
-    border-color: var(--green);
+    color: var(--green);
   }
   &--sometimes {
-    background-color: rgba($green, 0.3);
-    border-color: var(--green);
+    color: rgba($green, 0.3);
   }
   &--never {
-    background-color: transparent;
+    color: transparent;
   }
 }
