@@ -22,9 +22,6 @@ export default function NavBar(props) {
       <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <NavLink to="/process" className="nav-link" activeClassName="active">Process</NavLink>
-          </li>
-          <li className="nav-item">
             <NavLink to="/decision-tree" className="nav-link" activeClassName="active">Decision tree</NavLink>
           </li>
           <li className="nav-item">
