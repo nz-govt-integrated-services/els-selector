@@ -1,54 +1,59 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import ProcessItemPreview from '../process-item-preview/process-item-preview';
 import ProcessItem from '../process-item/process-item';
+import smoothscroll from 'smoothscroll-polyfill';
 
 import './process-group.scss';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGreaterThan } from '@fortawesome/free-solid-svg-icons'
-
 export default function ProcessGroup(props) {
+
   const [activeItem, setActiveItem] = useState(null);
+  const activeItemRef = useRef(null);
 
   const handleClick = (itemIndex) => {
     setActiveItem(itemIndex);
   };
 
+  const scrollToSection = () => {
+    smoothscroll.polyfill();
+    if(activeItemRef.current !== null) {
+      activeItemRef.current.scrollIntoView({ behaviour: 'smooth', block: 'start' });
+    }
+  };
+
+  useEffect(scrollToSection, [activeItem]);
+
   return (
-    <div>
-      <div className="row align-items-stretch">
-        {
-          props.checklists.map((checklist, index) => (
-            <div className="col checklist" key={ checklist.title }>
+    <div className="row">
+      <div className="col-3 align-items-stretch">
+        <ul className="nav nav-pills flex-column sticky-top">
+          {
+            props.checklists.map((checklist, index) => (
               <ProcessItemPreview
                 data={ checklist }
                 index={ index }
                 onClick={ handleClick }
                 active={ index === activeItem }
+                key={ checklist.title }
               />
-              {
-                index !== (props.checklists.length - 1) && (
-                  <div className="checklist__arrow">
-                    <FontAwesomeIcon icon={faGreaterThan} />
-                  </div>
-                )
-              }
-            </div>
-          ))
-        }
+            ))
+          }
+        </ul>
       </div>
+      <div className="col-9">
       {
-        (activeItem !== null) && (
-          <div className="row">
-            {
-              <div className="col-12">
-                <ProcessItem data={ props.checklists[activeItem] } />
-              </div>
-            }
+        props.checklists.map((checklist, index) => (
+          <div ref={index === activeItem ? activeItemRef : null}>
+          <ProcessItem
+            data={ checklist }
+            key={ `process-item-${index}` }
+            id={ `process-item-${index}` }
+          />
           </div>
-        )
+        ))
       }
+      </div>
     </div>
   )
 }

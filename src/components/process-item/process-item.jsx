@@ -5,15 +5,17 @@ import './process-item.scss';
 
 export default function ProcessItem(props) {
   return (
-    <div className="border p-4 process-item">
+    <div className="mb-4 process-item" id={props.id}>
+      <h3>{ props.data.title }</h3>
+      <p className="lead">{ props.data.blurb }</p>
       {
         props.data.lists.map((list, index) => (
           <div key={ list.title }>
-            <h4>{list.title}</h4>
+            <h5>{list.title}</h5>
             <ul>
               {
                 list.items.map((item, index) => (
-                  <li key={ item }>{ item }</li>
+                  <li key={ item } dangerouslySetInnerHTML={{ __html: item }} />
                 ))
               }
             </ul>
@@ -25,6 +27,7 @@ export default function ProcessItem(props) {
 }
 
 ProcessItem.propTypes = {
+  id: PropTypes.string.isRequired,
   data: PropTypes.shape({
     title: PropTypes.string,
     blurb: PropTypes.string,
