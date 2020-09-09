@@ -5,7 +5,7 @@ import './process-item.scss';
 
 export default function ProcessItem(props) {
   return (
-    <div className="mb-4 process-item" id={props.id}>
+    <div id={props.id}>
       <h3>{ props.data.title }</h3>
       <p className="lead">{ props.data.blurb }</p>
       {
