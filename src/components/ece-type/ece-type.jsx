@@ -5,18 +5,20 @@ import EceAttribute from '../ece-attribute/ece-attribute';
 
 export default function EceType(props) {
   return (
-    <div>
-      <h2>{props.data.title}</h2>
-      <p>{props.data.text}</p>
-      <div>
-        {
-          props.data.attributes.map((attribute, index) => (
-            <EceAttribute type={attribute.type}
-                          data={attribute.data}
-                          text={attribute.text}
-                          key={`${props.title}-${attribute.type}`}/>
-          ))
-        }
+    <div className="card">
+      <h2 className="card-header">{props.data.title}</h2>
+      <div className="card-body">
+        <p>{props.data.text}</p>
+        <div className="small">
+          {
+            props.data.attributes.map((attribute, index) => (
+              <EceAttribute type={attribute.type}
+                            data={attribute.data}
+                            text={attribute.text}
+                            key={`${props.title}-${attribute.type}`}/>
+            ))
+          }
+        </div>
       </div>
     </div>
   )
