@@ -3,10 +3,16 @@ import PropTypes from 'prop-types';
 
 import EceAttribute from '../ece-attribute/ece-attribute';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
+
 export default function EceType(props) {
   return (
     <div className="card">
-      <h2 className="card-header">{props.data.title}</h2>
+      <div className="card-header d-flex justify-content-between align-items-center">
+        <h2>{props.data.title}</h2>
+        <FontAwesomeIcon icon={faTimes} onClick={()=>props.handleClick(null)} />
+      </div>
       <div className="card-body">
         <p>{props.data.text}</p>
         <div className="small">
@@ -24,11 +30,16 @@ export default function EceType(props) {
   )
 }
 
+EceType.defaultProps = {
+  handleClick: null
+}
+
 EceType.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     text: PropTypes.string,
     attributes: PropTypes.array,
     links: PropTypes.arrayOf(PropTypes.object)
-  }).isRequired
+  }).isRequired,
+  handleClick: PropTypes.func
 };
