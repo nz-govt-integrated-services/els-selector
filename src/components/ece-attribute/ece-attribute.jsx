@@ -24,13 +24,16 @@ export default function EceAttribute(props) {
 
   return (
     <div className="row mb-3">
-      <div className="col-1"></div>
-      <div className="col-1 d-flex justify-content-center">
-        { <mappedType.icon data={props.data} /> }
+      <div className="col-1">
+        <div className="d-flex justify-content-center">
+          { <mappedType.icon data={props.data} /> }
+        </div>
       </div>
-      <div className="col-10">
-        <h5>{ mappedType.heading }</h5>
-        <p>{ props.text }</p>
+      <div className="col-11">
+        <p>
+          <span className="font-weight-bold">{ mappedType.heading }: </span>
+          { props.text }
+        </p>
       </div>
     </div>
   )

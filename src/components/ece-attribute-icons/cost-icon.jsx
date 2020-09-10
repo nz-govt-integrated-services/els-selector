@@ -11,10 +11,11 @@ export default function CostIcon(props) {
   return (
     <div className="cost-icon__container">
       {
-        [5,4,3,2,1].map(costLevel => (
+        [1,2,3,4,5].map(costLevel => (
           <span
             className={`cost-icon cost-icon--${inRange(costLevel, props.data.always) ? 'always' : (inRange(costLevel, props.data.sometimes) ? 'sometimes' : 'never')}`}
           >
+            $
           </span>
         ))
       }

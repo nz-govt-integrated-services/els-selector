@@ -1,39 +1,21 @@
 import React from 'react';
+import ProcessGroup from '../components/process-group/process-group';
 import NavBar from '../components/navbar/navbar';
-import { Link } from "react-router-dom";
+
+import CHECKLIST_DATA from '../data/checklist-data.json';
 
 function HomePage() {
   return (
     <div>
       <NavBar />
-      <div className="container py-4">
-        <h1>Early learning services in New Zealand</h1>
-        <div className="row mt-4">
-          <div className="col-lg-4 py-4">
-            <Link to="/process" className="link-not-blue">
-              <div className="card">
-                <h4 className="card-header">How to find an early learning service</h4>
-                <div className="card-body">Not sure where to start?</div>
-              </div>
-            </Link>
-          </div>
-          <div className="col-lg-4 py-4">
-            <Link to="/decision-tree" className="link-not-blue">
-              <div className="card">
-                <h4 className="card-header">What's the right type of early learning service for you?</h4>
-                <div className="card-body">Find out which type of centre you should go to with our quiz.</div>
-              </div>
-            </Link>
-          </div>
-          <div className="col-lg-4 py-4">
-            <Link to="/table" className="link-not-blue">
-              <div className="card">
-                <h4 className="card-header">Compare types of early learning service</h4>
-                <div className="card-body">Not sure what the difference between a playcentre and a playgroup is?</div>
-              </div>
-            </Link>
+      <div className="container mt-4">
+        <div className="row mb-4">
+          <div className="col-12">
+            <h1 className="mb-4">How do we sign up for an early learning service?</h1>
+            <p>Not sure where to start? It is here.</p>
           </div>
         </div>
+        <ProcessGroup checklists={ CHECKLIST_DATA } />
       </div>
     </div>
   );

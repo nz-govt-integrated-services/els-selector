@@ -14,7 +14,7 @@ export default function LanguageIcon(props) {
         props.data.languages.map((language, index) => (
           <div className={`language-icon language-icon--${index}`}>
             <span className="language-icon__bubble">
-              <FontAwesomeIcon icon={faComment} style={{"font-size": `${(baseSize*language.proportion)}em`}} />
+              <FontAwesomeIcon icon={faComment} style={{"fontSize": `${(baseSize*language.proportion)}em`}} />
             </span>
             <span className="language-icon__name">
               {language.name}
