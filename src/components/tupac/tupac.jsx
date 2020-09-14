@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import smoothscroll from 'smoothscroll-polyfill';
 
 import EceType from '../ece-type/ece-type';
 import ComparisonTable from '../comparison-table/comparison-table';
@@ -21,10 +22,21 @@ import TE_KURA_DATA from '../../data/ece-types/te-kura.json';
 
 export default function Tupac() {
   const [selectedType, setSelectedType] = useState(null);
+  const selectedTypeRef = useRef(null);
 
   const handleClick = (type) => {
     setSelectedType(type);
   };
+
+  const scrollToSection = () => {
+    console.log(window.innerWidth)
+    smoothscroll.polyfill();
+    if(selectedTypeRef.current !== null && window.innerWidth < 700) {
+      selectedTypeRef.current.scrollIntoView({ behaviour: 'smooth', block: 'start' });
+    }
+  };
+
+  useEffect(scrollToSection, [selectedType]);
 
   const eceTypeData = {
     "kindergarten": KINDY_DATA,
@@ -45,13 +57,19 @@ export default function Tupac() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className={ selectedType ? 'col-8' : 'col-12' }>
-          <ComparisonTable data={TABLE_DATA} handleClick={ handleClick } selectedType={selectedType}/>
+        <div className={ selectedType ? 'col-lg-8 col-md-12' : 'col-12' }>
+          <ComparisonTable
+            data={TABLE_DATA}
+            handleClick={ handleClick }
+            selectedType={selectedType}/>
         </div>
         {
           selectedType && (
-            <div className="col-4">
-              <EceType data={ eceTypeData[selectedType] } handleClick={ handleClick } />
+            <div className="col-lg-4 col-md-12" ref={ selectedTypeRef }>
+              <EceType
+                data={ eceTypeData[selectedType] }
+                handleClick={ handleClick }
+              />
             </div>
           )
         }
