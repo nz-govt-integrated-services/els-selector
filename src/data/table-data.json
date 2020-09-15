@@ -76,13 +76,13 @@
         "kohanga": {"notes": "0 - 6"},
         "kindergarten": {"notes": "Usually 2½ - 5"},
         "te_kura": {"notes": "3 - 5"},
-        "aoga": {},
+        "aoga": {"notes": "0 - 6"},
         "montessori": {"notes": "0 - 6"},
-        "steiner": {},
-        "akoteu": {},
+        "steiner": {"notes": "0 - 6"},
+        "akoteu": {"notes": "0 - 6"},
         "playcentre": {"notes": "0 - 6"},
-        "puna_kōhungahunga": {},
-        "playgroup": {},
+        "puna_kōhungahunga": {"notes": "0 - 6"},
+        "playgroup": {"notes": "0 - 6"},
         "home_based": {"notes": "0 - 6"}
       }
     },
@@ -112,7 +112,7 @@
         "montessori": {"notes": "Based on philosophy of Maria Montessori", "links": [{"text": "Read more", "href": "https://www.montessori.org.nz/montessori/what-is-montessori/"}]},
         "steiner": {"notes": "Based on philosophy of Rudolf Steiner", "links": [{"text": "Read more", "href": "http://seanz.org/our-mandate/"}]},
         "akoteu": {},
-        "playcentre": {},
+        "playcentre": {"notes": "Learning through play"},
         "puna_kōhungahunga": {},
         "playgroup": {},
         "home_based": {}
@@ -122,13 +122,16 @@
       "name": "Organisation structure",
       "values": {
         "kohanga": {"notes": "Administered by..", "links": [{"text": "Read more", "href": "https://www.kohanga.ac.nz/whakamana-i-te-kaupapa"}]},
-        "kindergarten": {"notes": "NZ Kindergartens administers regional Kindergarten Associations", "links": [{"text": "Read more", "href": "https://nzkindergarten.org.nz/"}]},
+        "kindergarten": {
+        "notes": "NZ Kindergartens administers regional Kindergarten Associations", 
+        "links":  [{"text": "Read more", "href": "https://nzkindergarten.org.nz/"}]
+        },
         "te_kura": {},
         "aoga": {},
-        "montessori": {"notes": "Administered by..", "links": [{"text": "Read more", "href": "https://www.montessori.org.nz/montessori/what-is-montessori/"}]},
-        "steiner": {"notes": "Administered by..", "links": [{"text": "Read more", "href": "http://seanz.org/our-mandate/"}]},
+        "montessori": {},
+        "steiner": {},
         "akoteu": {},
-        "playcentre": {"notes": "Administered by..."},
+        "playcentre": {"notes": "Administered by playcentre associations", "links":[{"text": "Read more", "href":"https://www.playcentre.org.nz/"}]},
         "puna_kōhungahunga": {},
         "playgroup": {"notes": "Playgroups are usually run by community organisations"},
         "home_based": {}
