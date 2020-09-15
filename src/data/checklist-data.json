@@ -20,21 +20,23 @@
         "heading": "Be aware of availability.",
         "text": "Some services won't have the space when you need it or you may have to go on a waiting list. Start considering your options by going online or talking to friends and whānau as early as possible to secure a space for your child."
       }
-    ],
-    "lists": [
-      {
-        "items": ["<strong>Be aware that the process of choosing and enrolling in a service might take a few months.</strong> Different services have different procedures but you will need to make contact to secure a space on the waiting list, and then you will need to work through the enrolment. It is normal to begin multiple enrolments at once before finalising with your chosen service.", "<strong>Do you know the difference between a kindergarten and a playcentre?</strong> Different early childhood services have different approaches to children's learning. Consider your future needs and navigate our decision tree here [link].","<strong>Consider and plan for paying fees.</strong> Remember, even with government subsidies like 20 Hours ECE, you may still have to pay fees. Did you know that the Ministry of Social Development can provide financial assistance for early childhood fees? You can get a <a href='https://www.workandincome.govt.nz/providers/childcare-assistance/types-of-childcare-available.html' class='external-link'>general overview of services here</a> or <a href='https://my.msd.govt.nz/?utm_source=W%26I%20website&utm_campaign=login' class='external-link'>go straight to MyMSD to apply</a>.","<strong>Availability</strong> - some services won't have the space when you need it or you may have to go on a waiting list. Start considering your options by going online or talking to friends and whānau as early as possible to secure a space for your child."]
-      }
     ]
   },
   {
     "title": "Shortlist centres",
     "blurb": "Gather information about the early learning services you're considering, either by checking out their website or phoning them.",
     "links": [],
+    "sections": [
+      {
+        "heading": "Things to consider:",
+      },
     "lists": [
       {
-        "title": "Things to consider",
-        "items": ["Location: shortlist centres that are close enough to home, work or your place of study. Use <a href='https://www.educationcounts.govt.nz/find-an-els' class='external-link'>the interactive map</a> to narrow down locations."]
+        "items": ["What style of care you would prefer, including the language, culture, and activities","Whether your child would do better in a smaller centre or a large one","Whether the centre is open/available when you need them to be","What role you want to play as a parent (for example, whether you want to have a say in the running of the centre)"]
+      },
+      {
+        "heading": "Location",
+        "text": "shortlist centres that are close enough to home, work or your place of study. Use <a href='https://www.educationcounts.govt.nz/find-an-els' class='external-link'>the interactive map</a> to narrow down locations."]
       }
     ]
   },
