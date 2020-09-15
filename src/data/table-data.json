@@ -128,7 +128,7 @@
         "montessori": {},
         "steiner": {},
         "akoteu": {},
-        "playcentre": {"notes": "Administered by playcentre associations" "links":[{"text": "Read more", "href":"https://www.playcentre.org.nz/"}]},
+        "playcentre": {"notes": "Administered by playcentre associations", "links":[{"text": "Read more", "href":"https://www.playcentre.org.nz/"}]},
         "puna_kōhungahunga": {},
         "playgroup": {"notes": "Playgroups are usually run by community organisations"},
         "home_based": {}
