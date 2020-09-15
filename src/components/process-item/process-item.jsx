@@ -9,6 +9,14 @@ export default function ProcessItem(props) {
       <h3>{ props.data.title }</h3>
       <p className="lead">{ props.data.blurb }</p>
       {
+        props.data.sections && props.data.sections.map((section, index) => (
+          <div key={ section.heading }>
+            <h5>{section.heading}</h5>
+            <p key={ section.text } dangerouslySetInnerHTML={{ __html: section.text }} />
+          </div>
+        ))
+      }
+      {
         props.data.lists.map((list, index) => (
           <div key={ list.title }>
             <h5>{list.title}</h5>
@@ -32,6 +40,7 @@ ProcessItem.propTypes = {
     title: PropTypes.string,
     blurb: PropTypes.string,
     lists: PropTypes.array,
-    links: PropTypes.array
+    links: PropTypes.array,
+    sections: PropTypes.array
   }).isRequired
 };
