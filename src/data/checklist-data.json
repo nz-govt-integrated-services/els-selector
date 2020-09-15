@@ -2,7 +2,6 @@
   {
     "title": "Think about what you need",
     "blurb": "There are lots of different things to consider before signing up for an early learning service.",
-    "links": [],
     "sections": [
       {
         "heading": "Be aware that the process of choosing and enrolling in a service might take a few months.",
@@ -20,29 +19,31 @@
         "heading": "Be aware of availability.",
         "text": "Some services won't have the space when you need it or you may have to go on a waiting list. Start considering your options by going online or talking to friends and whānau as early as possible to secure a space for your child."
       }
-    ],
-    "lists": [
-      {
-        "items": ["<strong>Be aware that the process of choosing and enrolling in a service might take a few months.</strong> Different services have different procedures but you will need to make contact to secure a space on the waiting list, and then you will need to work through the enrolment. It is normal to begin multiple enrolments at once before finalising with your chosen service.", "<strong>Do you know the difference between a kindergarten and a playcentre?</strong> Different early childhood services have different approaches to children's learning. Consider your future needs and navigate our decision tree here [link].","<strong>Consider and plan for paying fees.</strong> Remember, even with government subsidies like 20 Hours ECE, you may still have to pay fees. Did you know that the Ministry of Social Development can provide financial assistance for early childhood fees? You can get a <a href='https://www.workandincome.govt.nz/providers/childcare-assistance/types-of-childcare-available.html' class='external-link'>general overview of services here</a> or <a href='https://my.msd.govt.nz/?utm_source=W%26I%20website&utm_campaign=login' class='external-link'>go straight to MyMSD to apply</a>.","<strong>Availability</strong> - some services won't have the space when you need it or you may have to go on a waiting list. Start considering your options by going online or talking to friends and whānau as early as possible to secure a space for your child."]
-      }
     ]
   },
   {
     "title": "Shortlist centres",
     "blurb": "Gather information about the early learning services you're considering, either by checking out their website or phoning them.",
-    "links": [],
-    "lists": [
+    "sections": [
       {
-        "title": "Things to consider",
-        "items": ["Location: shortlist centres that are close enough to home, work or your place of study. Use <a href='https://www.educationcounts.govt.nz/find-an-els' class='external-link'>the interactive map</a> to narrow down locations."]
+        "heading": "Things to consider:",
+        "items": [
+          "What style of care you would prefer, including the language, culture, and activities",
+          "Whether your child would do better in a smaller centre or a large one",
+          "Whether the centre is open/available when you need them to be",
+          "What role you want to play as a parent (for example, whether you want to have a say in the running of the centre)"
+        ]
+      },
+      {
+        "heading": "Location",
+        "text": "Shortlist centres that are close enough to home, work or your place of study. Use <a href='https://www.educationcounts.govt.nz/find-an-els' class='external-link'>the interactive map</a> to narrow down locations."
       }
     ]
   },
   {
     "title": "Visit and trial services",
     "blurb": "Get to know the services",
-    "links": [],
-    "lists": [
+    "sections": [
       {
         "title": "Things to find out",
         "items": ["Location: are they close enough to home, work or study?", "Hours: are they open when you need them, and what about school holidays?",
@@ -57,8 +58,7 @@
   {
     "title": "Enrol at a service",
     "blurb": "What you need to know to enrol",
-    "links": [],
-    "lists": [
+    "sections": [
       {
         "items": ["Be aware that the process of choosing and enrolling in a service might take a few months. Different services have different procedures but you will need to make contact to secure a space on the waiting list, and then you will need to work through the enrolment. It is normal to begin multiple enrolments at once before finalising with your chosen service.", "You will need to fill out an enrolment form, which your chosen service will give to you. Different services will need different documents for enrolment.", "Proof of your child's age and citizenship. Do you have an up-to-date birth certificate for your child? If not, you can <a href='https://www.certificates.services.govt.nz' class='external-link'>order a New Zealand Birth Certificate ($33) online</a>.", "You will be asked by your chosen provider to show evidence of your child's immunisation record. This can be done with your Well Child book. Take this time to see if your child’s immunisations are up to date.","Some children will settle in straight away, and others take longer. Talk to the educators and parents to get to know them and to help them to get to know your child. It is normal for your child to be upset when you leave, especially in the early weeks, and it can also be upsetting for you."]
       }

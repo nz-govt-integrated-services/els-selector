@@ -13,20 +13,17 @@ export default function ProcessItem(props) {
           <div key={ section.heading }>
             <h5>{section.heading}</h5>
             <p key={ section.text } dangerouslySetInnerHTML={{ __html: section.text }} />
-          </div>
-        ))
-      }
-      {
-        props.data.lists.map((list, index) => (
-          <div key={ list.title }>
-            <h5>{list.title}</h5>
-            <ul>
-              {
-                list.items.map((item, index) => (
-                  <li key={ item } dangerouslySetInnerHTML={{ __html: item }} />
-                ))
-              }
-            </ul>
+            {
+              section.items && (
+                <ul>
+                {
+                  section.items.map((item, index) => (
+                    <li key={ item } dangerouslySetInnerHTML={{ __html: item }} />
+                  ))
+                }
+                </ul>
+              )
+            }
           </div>
         ))
       }
