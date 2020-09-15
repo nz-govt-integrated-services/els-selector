@@ -122,7 +122,10 @@
       "name": "Organisation structure",
       "values": {
         "kohanga": {"notes": "Administered by..", "links": [{"text": "Read more", "href": "https://www.kohanga.ac.nz/whakamana-i-te-kaupapa"}]},
-        "kindergarten": {"notes": "NZ Kindergartens administers regional Kindergarten Associations", "links": [{"text": "Read more", "href": "https://nzkindergarten.org.nz/"}]"},
+        "kindergarten": {
+        "notes": "NZ Kindergartens administers regional Kindergarten Associations", 
+        "links":  [{"text": "Read more", "href": "https://nzkindergarten.org.nz/"}]
+        },
         "te_kura": {},
         "aoga": {},
         "montessori": {},
