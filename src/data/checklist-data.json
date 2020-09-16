@@ -45,13 +45,20 @@
     "blurb": "Get to know the services",
     "sections": [
       {
-        "title": "Things to find out",
+        "text": "Now that you have shortlisted your centres, it's a good idea to pop in for a visit and get a good feel for the children, the adults, and the environment. You can visit as many times as you like; get in touch with them and arrange a visit."
+      },
+      {
+        "title": "Make sure to ask enough questions to make sure you make the right choice for you and your child:",
         "items": ["Location: are they close enough to home, work or study?", "Hours: are they open when you need them, and what about school holidays?",
 "Style of care: do they offer what you want for your child eg language, culture, values, activities and learning?",
 "Cost: can you afford the fees? Remember, even with government subsidies like 20 Hours ECE, you may still have to pay fees. Check with each service to find out.",
 "Services offered: do they offer what you want, like meals, drinks, nappies, supplies, activities etc. Check what’s included in the fees.",
 "Size: would your child do better in a small group or a large one, and what is the adult to child ratio?",
-"Availability: do they have space, or is there a waiting list?"]
+"Availability: do they have space, or is there a waiting list?","Sleeping policy"]
+      },
+      {
+        "heading": "Licensed ECE services and kōhanga reo are usually reviewed by the Education Review Office (ERO)",
+        "text": "This happens every three years. You can find the most recent ERO report for an ECE service or kōhanga reo on the ERO website or you can ask the service to see a copy of their latest ERO report.  The reports cover things like the learning environment, processes and procedures, how educators relate to students, the commitment to bicultural practices and how they support Māori learners, how they review and monitor themselves, and their vision and philosophy. You can look up a service here [link: https://www.ero.govt.nz/review-reports/]"
       }
     ]
   },
@@ -60,7 +67,17 @@
     "blurb": "What you need to know to enrol",
     "sections": [
       {
-        "items": ["Be aware that the process of choosing and enrolling in a service might take a few months. Different services have different procedures but you will need to make contact to secure a space on the waiting list, and then you will need to work through the enrolment. It is normal to begin multiple enrolments at once before finalising with your chosen service.", "You will need to fill out an enrolment form, which your chosen service will give to you. Different services will need different documents for enrolment.", "Proof of your child's age and citizenship. Do you have an up-to-date birth certificate for your child? If not, you can <a href='https://www.certificates.services.govt.nz' class='external-link'>order a New Zealand Birth Certificate ($33) online</a>.", "You will be asked by your chosen provider to show evidence of your child's immunisation record. This can be done with your Well Child book. Take this time to see if your child’s immunisations are up to date.","Some children will settle in straight away, and others take longer. Talk to the educators and parents to get to know them and to help them to get to know your child. It is normal for your child to be upset when you leave, especially in the early weeks, and it can also be upsetting for you."]
+        "heading": "Be aware that the process of choosing and enrolling in a service might take a few months.",
+        "text": "Different services have different procedures but you will need to make contact to secure a space on the waiting list, and then you will need to work through the enrolment. It is normal to begin multiple enrolments at once before finalising with your chosen service."
+      },
+      {
+        "heading": "You will need to fill out an enrolment form, which your chosen service will give to you.",
+        "text": "Different services will need different documents for enrolment.",
+        "items": ["Proof of your child's age and citizenship. Do you have an up-to-date birth certificate for your child? If not, you can <a href='https://www.certificates.services.govt.nz' class='external-link'>order a New Zealand Birth Certificate ($33) online</a>.", "You will be asked by your chosen provider to show evidence of your child's immunisation record. This can be done with your Well Child book. Take this time to see if your child’s immunisations are up to date. If your child isn’t immunised, this will also be recorded in an immunisation record by the staff at your …"]
+      },
+      {
+        "heading": "Some children will settle in straight away, and others take longer.", 
+        "text": "Talk to the educators and parents to get to know them and to help them to get to know your child. It is normal for your child to be upset when you leave, especially in the early weeks, and it can also be upsetting for you."
       }
     ]
   }
