@@ -21,7 +21,8 @@ export default function ComparisonTable(props) {
                 <th colSpan={category.members.length}
                     className="text-center"
                     key={`category-${category.name}`}>
-                  {category.name}
+                  <p>{category.name}</p>
+                  <span className="font-weight-normal">{category.description}</span>
                 </th>
               ))
             }

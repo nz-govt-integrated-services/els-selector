@@ -1,12 +1,14 @@
 {
   "categories": [
     {
-      "name": "Education and care services",
-      "members": ["aoga", "montessori", "steiner", "akoteu", "home_based"]
+      "name": "Teacher-led services",
+      "description": "These types of service are always led by qualified teachers - at least 50% of staff must have qualifications",
+      "members": ["kindergarten", "aoga", "montessori", "steiner", "akoteu", "home_based", "te_kura", "education_and_care"]
     },
     {
       "name": "Parent-led services",
-      "members": ["playcentre", "playgroup", "kohanga", "puna_kōhungahunga"]
+      "description": "These types of service usually expect more involvement from the parents and whānau.",
+      "members": ["playcentre", "playgroup",  "puna_kōhungahunga", "kohanga"]
     }
   ],
   "types": {
@@ -16,11 +18,12 @@
     "montessori": {"name": "Montessori"},
     "steiner": {"name": "Rudolf Steiner (Waldorf)"},
     "akoteu": {"name": "Akoteu"},
-    "puna_kōhungahunga": {"name": "Ngā Puna Kōhungahunga"},
     "playcentre": {"name": "Playcentre"},
     "playgroup": {"name": "Playgroup"},
+    "puna_kōhungahunga": {"name": "Ngā Puna Kōhungahunga"},
     "te_kura": {"name": "Te Kura"},
-    "home_based": {"name": "Home-based education and care"}
+    "home_based": {"name": "Home-based education and care"},
+    "education_and_care": {"name": "Education and care"}
   },
   "attributes": [
     {
@@ -36,23 +39,25 @@
         "puna_kōhungahunga": {"value": "true"},
         "te_kura": {"value": "false"},
         "akoteu": {"value": "false", "notes": "Tongan language immersion"},
-        "home_based": {"value": "false"}
+        "home_based": {"value": "false"},
+        "education_and_care": {"value": "partial"}
       }
     },
     {
-      "name": "At least one qualified teacher",
+      "name": "Teacher qualification minimums",
       "values": {
         "kohanga": {"value": "partial","notes": "Kaiako usually qualified in Te Reo Māori"},
-        "playcentre": {"value": "partial"},
-        "playgroup": {"value": "false"},
-        "kindergarten": {"value": "true", "notes": "All staff qualified"},
+        "playcentre": {"value": "partial","notes": "Varies from centre to centre"},
+        "playgroup": {"value": "false","notes": "No qualifications required"},
+        "kindergarten": {"value": "true", "notes": "All staff are required to be qualified"},
         "aoga": {"value": "true"},
-        "puna_kōhungahunga": {"value": "false"},
+        "puna_kōhungahunga": {"value": "false","notes": "No qualifications required"},
         "montessori": {"value": "true"},
         "steiner": {"value": "true"},
-        "te_kura": {"value": "true"},
+        "te_kura": {"value": "partial", "notes": "Material is designed by qualified ECE teachers, but instruction takes place at home"},
         "akoteu": {"value": "true"},
-        "home_based": {"value": "partial", "notes":"Educators are supervised by a qualified ECE teacher"}
+        "home_based": {"value": "partial", "notes":"Educators are supervised by a qualified ECE teacher"},
+        "education_and_care": {}
       }
     },
     {
@@ -67,6 +72,8 @@
         "akoteu": {"notes": "12"},
         "playcentre": {"notes": "404"},
         "playgroup": {"value": "unknown", "notes": "Playgroups are license-exempt"},
+        "puna_kōhungahunga": {"value": "unknown", "notes": "As a type of playgroup, puna kōhungahunga are license-exempt"},
+        "education_and_care": {},
         "home_based": {}
       }
     },
@@ -83,6 +90,7 @@
         "playcentre": {"notes": "0 - 6"},
         "puna_kōhungahunga": {"notes": "0 - 6"},
         "playgroup": {"notes": "0 - 6"},
+        "education_and_care": {},
         "home_based": {"notes": "0 - 6"}
       }
     },
@@ -97,44 +105,44 @@
         "steiner": {"value": "true"},
         "akoteu": {"value": "true"},
         "playcentre": {"value": "true"},
-        "puna_kōhungahunga": {"value": "true"},
-        "playgroup": {"value": "true"},
+        "puna_kōhungahunga": {"value": "false"},
+        "playgroup": {"value": "false"},
+        "education_and_care": {},
         "home_based": {"value": "true"}
       }
     },
     {
-      "name": "Education philosophy",
+      "name": "Parental involvement level",
       "values": {
-        "kohanga": {"notes": "Te Reo Māori and tikanga Māori", "links": [{"text": "Read more", "href": "https://www.kohanga.ac.nz/whakamana-i-te-kaupapa"}]},
-        "kindergarten": {},
-        "te_kura": {},
-        "aoga": {},
-        "montessori": {"notes": "Based on philosophy of Maria Montessori", "links": [{"text": "Read more", "href": "https://www.montessori.org.nz/montessori/what-is-montessori/"}]},
-        "steiner": {"notes": "Based on philosophy of Rudolf Steiner", "links": [{"text": "Read more", "href": "http://seanz.org/our-mandate/"}]},
-        "akoteu": {},
-        "playcentre": {"notes": "Learning through play"},
-        "puna_kōhungahunga": {},
-        "playgroup": {},
-        "home_based": {}
+        "kohanga": {"value": "true"},
+        "kindergarten": {"value": "true"},
+        "te_kura": {"value": "true"},
+        "aoga": {"value": "true"},
+        "montessori": {"value": "true"},
+        "steiner": {"value": "true"},
+        "akoteu": {"value": "true"},
+        "playcentre": {"value": "true"},
+        "puna_kōhungahunga": {"value": "false"},
+        "playgroup": {"value": "false"},
+        "education_and_care": {},
+        "home_based": {"value": "true"}
       }
     },
     {
-      "name": "Organisation structure",
+      "name": "Cost",
       "values": {
-        "kohanga": {"notes": "Administered by..", "links": [{"text": "Read more", "href": "https://www.kohanga.ac.nz/whakamana-i-te-kaupapa"}]},
-        "kindergarten": {
-        "notes": "NZ Kindergartens administers regional Kindergarten Associations", 
-        "links":  [{"text": "Read more", "href": "https://nzkindergarten.org.nz/"}]
-        },
-        "te_kura": {},
-        "aoga": {},
-        "montessori": {},
-        "steiner": {},
-        "akoteu": {},
-        "playcentre": {"notes": "Administered by playcentre associations", "links":[{"text": "Read more", "href":"https://www.playcentre.org.nz/"}]},
-        "puna_kōhungahunga": {},
-        "playgroup": {"notes": "Playgroups are usually run by community organisations"},
-        "home_based": {}
+        "kohanga": {"value": "true"},
+        "kindergarten": {"value": "true"},
+        "te_kura": {"value": "true"},
+        "aoga": {"value": "true"},
+        "montessori": {"value": "true"},
+        "steiner": {"value": "true"},
+        "akoteu": {"value": "true"},
+        "playcentre": {"value": "true"},
+        "puna_kōhungahunga": {"value": "false"},
+        "playgroup": {"value": "false"},
+        "education_and_care": {},
+        "home_based": {"value": "true"}
       }
     }
   ]
