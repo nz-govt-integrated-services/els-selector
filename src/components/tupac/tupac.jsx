@@ -43,7 +43,7 @@ export default function Tupac() {
     "kohanga": KOHANGA_DATA,
     "akoteu": AKOTEU_DATA,
     "aoga": AOGA_DATA,
-    "education-and-care": EDUCATION_AND_CARE_DATA,
+    "education_and_care": EDUCATION_AND_CARE_DATA,
     "montessori": MONTESSORI_DATA,
     "playcentre": PLAYCENTRE_DATA,
     "playgroup": PLAYGROUP_DATA,

@@ -1,0 +1,9 @@
+.clickable-cell {
+  cursor: pointer;
+  &:hover, &:active {
+    background-color: var(--impendingstorm--highlight);
+  }
+  &.active {
+    background-color: var(--impendingstorm);
+  }
+}
