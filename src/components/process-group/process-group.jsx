@@ -26,7 +26,7 @@ export default function ProcessGroup(props) {
 
   return (
     <div className="row">
-      <div className="col-3 align-items-stretch">
+      <div className="col-md-3 col-12 align-items-stretch">
         <ul className="nav nav-pills flex-column sticky-top">
           {
             props.checklists.map((checklist, index) => (
@@ -41,7 +41,7 @@ export default function ProcessGroup(props) {
           }
         </ul>
       </div>
-      <div className="col-9">
+      <div className="col-md-9 col-12">
       {
         props.checklists.map((checklist, index) => (
           <div ref={index === activeItem ? activeItemRef : null} class="process-item">
