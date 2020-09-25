@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ComparisonCell from '../comparison-cell/comparison-cell'
 
+import './comparison-table.scss';
+
 export default function ComparisonTable(props) {
   const typeOrder = () => {
     const categoryMemberIds = props.data.categories.map((category) => (category.members)).flat();
@@ -31,7 +33,7 @@ export default function ComparisonTable(props) {
             <th />
             {
               typeOrder().map((type, index) => (
-                <th className={`text-center ${props.selectedType === type ? 'bg-impendingstorm' : ''}`}
+                <th className={`text-center clickable-cell ${props.selectedType === type ? 'active' : ''}`}
                     key={`type-${props.data.types[type].name}`}
                     onClick={() => props.handleClick(type)}>
                   { props.data.types[type].name }
