@@ -21,20 +21,3 @@ $colours: (
   "red": #DBB4A7,
   "yellow": #DBD77B
 );
-
-@each $name, $colour in $colours {
-  .bg-#{$name} {
-    background-color: #{$colour};
-  }
-  .font-color-#{$name} {
-    color: #{$colour};
-  }
-}
-
-:root {
-  @each $name, $colour in $colours {
-    --#{$name}: #{$colour};
-  }
-  --color-black: #000;
-  --color-white: #FFF;
-}

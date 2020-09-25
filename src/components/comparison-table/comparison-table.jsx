@@ -33,7 +33,7 @@ export default function ComparisonTable(props) {
             <th />
             {
               typeOrder().map((type, index) => (
-                <th className={`text-center clickable-cell ${props.selectedType === type ? 'active' : ''}`}
+                <th className={`text-center clickable ${props.selectedType === type ? 'active' : ''}`}
                     key={`type-${props.data.types[type].name}`}
                     onClick={() => props.handleClick(type)}>
                   { props.data.types[type].name }

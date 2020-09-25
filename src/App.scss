@@ -1,4 +1,6 @@
-@import "./components/utils/colours";
+@import './components/utils/variables.scss';
+@import 'bootstrap/scss/bootstrap.scss';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 .link-not-blue {
   color: #212529;
@@ -21,4 +23,14 @@
 }
 html {
   scroll-behavior: smooth;
+}
+
+.clickable {
+  cursor: pointer;
+  &:hover, &:active {
+    background-color: var(--impendingstorm--highlight);
+  }
+  &.active {
+    background-color: var(--impendingstorm);
+  }
 }
