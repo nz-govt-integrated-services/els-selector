@@ -7,6 +7,7 @@ import TablePage from './pages/table'
 import HomePage from './pages/home'
 import ProcessPage from './pages/process'
 import FinancialHelpPage from './pages/financial-help'
+import 'antd/dist/antd.css';
 
 import './App.scss';
 

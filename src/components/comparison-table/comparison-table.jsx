@@ -1,10 +1,41 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Table } from 'antd';
 import ComparisonCell from '../comparison-cell/comparison-cell'
+
+import ANTD_TABLE_DATA from '../../data/table-data-antd.json';
+import ANTD_TABLE_DATA_FLIPPED from '../../data/table-data-antd-flipped.json';
 
 import './comparison-table.scss';
 
 export default function ComparisonTable(props) {
+  const columnsWithRenderFunctions = (data) => {
+    let columns = data.columns;
+    return columns.map((column, index) => {
+      let basic_render_function = (text) => (text)
+
+      let fancy_render_function = (values) => (
+        values && (
+        <ComparisonCell value = { values.value }
+                        text = { values.text }
+                        notes = { values.notes }
+                        links = { values.links }
+        />
+        )
+      )
+      return {
+        key: column.key,
+        dataIndex: column.key,
+        fixed: column.fixed,
+        width: column.width,
+        title: column.title,
+        render: (values) => (
+          typeof(values) === "string" ? basic_render_function(values) : fancy_render_function(values)
+        )
+      }
+    })
+  }
+
   const typeOrder = () => {
     const categoryMemberIds = props.data.categories.map((category) => (category.members)).flat();
     const allTypeIds = Object.keys(props.data.types);
@@ -13,7 +44,18 @@ export default function ComparisonTable(props) {
   }
 
   return (
-    <div className="table-responsive">
+    <div style={{width: '100%'}}>
+      <Table
+        columns={ columnsWithRenderFunctions(ANTD_TABLE_DATA) }
+        dataSource={ ANTD_TABLE_DATA.rows }
+        scroll={{ x: 800, y: 400 }}
+        />
+      <Table
+        columns={ columnsWithRenderFunctions(ANTD_TABLE_DATA_FLIPPED) }
+        dataSource={ ANTD_TABLE_DATA_FLIPPED.rows }
+        scroll={{ x: 800, y: 400 }}
+        pagination={false}
+        />
       <table className="table table-bordered border-0 table-hover">
         <thead>
           <tr>
@@ -24,7 +66,6 @@ export default function ComparisonTable(props) {
                     className="text-center"
                     key={`category-${category.name}`}>
                   <p>{category.name}</p>
-                  <span className="font-weight-normal">{category.description}</span>
                 </th>
               ))
             }
