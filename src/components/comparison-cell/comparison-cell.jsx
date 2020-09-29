@@ -17,8 +17,8 @@ export default function ComparisonCell(props) {
   const mappedValue = valueMap[props.value]
 
   return (
-    <div className="d-flex justify-content-start">
-      <div className="d-flex flex-column">
+    <div className="d-flex  flex-column justify-content-center">
+      <div className="d-inline-flex align-items-center">
         {
           props.level && (
             <Level data={ props.level } />
@@ -29,21 +29,25 @@ export default function ComparisonCell(props) {
             <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} className="mb-1" />
           )
         }
+        <div>
+          {
+            props.notes && (
+              <div className="w-10">
+                <Tooltip title={ props.notes }>
+                  <sup className="">&nbsp;*</sup>
+                </Tooltip>
+              </div>
+            )
+          }
+        </div>
+      </div>
+      <div>
         {
           props.text && (
             <small>{ props.text }</small>
           )
         }
       </div>
-      {
-        props.notes && (
-          <div className="w-10">
-            <Tooltip title={ props.notes }>
-              <sup className="">&nbsp;*</sup>
-            </Tooltip>
-          </div>
-        )
-      }
       {
         props.links && (
           <div className="small">

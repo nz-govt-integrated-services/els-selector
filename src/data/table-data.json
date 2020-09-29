@@ -16,11 +16,11 @@
   ],
   "rows": [
     {
-      "name": "Parental involvement level",
+      "name": "Parental involvement",
       "key": "parental-involvement",
       "kohanga": {"text": "High", "notes": "Parents and whānau are encouraged to take part in learning", "level": {"always": {"from": 0, "to": 3}, "sometimes": {"from": 3, "to": 5}}},
-      "kindergarten": {"text": "Medium to high", "level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
-      "te_kura": {"text": "Very high", "notes": "", "level": {"always": {"from": 0, "to": 5}}},
+      "kindergarten": {"value": "false", "notes": "Hello", "text": "Medium to high", "level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "te_kura": {"text": "Very high", "notes": "Te Kura sends material for learning, but it must be administered at home", "level": {"always": {"from": 0, "to": 5}}},
       "aoga": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
       "montessori": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
       "steiner": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
@@ -71,7 +71,7 @@
       "aoga": {"text": "16"},
       "montessori": {"text": "200"},
       "steiner": {"text": "22"},
-      "te_kura": {"text": "1"},
+      "te_kura": {"text": "1", "notes": "Te Kura serves all of Aotearoa"},
       "akoteu": {"text": "12"},
       "playcentre": {"text": "404"},
       "playgroup": {"value": "unknown", "notes": "Playgroups are license-exempt"},
