@@ -1,5 +1,5 @@
 {
-  "question": "",
+  "question": "What do you need from an early learning service?",
   "answers": [
     {
       "answer": "I need someone to provide education and care for my child during the day",
@@ -349,18 +349,16 @@
                 "href": "https://www.tekura.school.nz/"
               }
             ]
+          },
+          {
+            "heading": "Resources for teaching at home during COVID-19",
+            "text": "<p>The Ministry of Education has launched websites with resources to support parents and whānau, teachers and leaders, during COVID-19. </p><p>The Learning from Home website provides resources, guidance and information that support distance learning from early learning to senior secondary.</p>",
+            "links": [              {
+                    "text": "Find out more about resources for supporting your child from home",
+                    "href": "https://learningfromhome.govt.nz/resources?age=Early_Learning"
+                  }]
           }
         ]
-      }
-    },
-    {
-      "answer": "I’m temporarily unable to send my child to an early childhood education centre because of COVID-19",
-      "result": {
-        "text": "<p>The Ministry of Education launched websites with resources to support parents and whānau, teachers and leaders, during COVID-19. </p><p>The Learning from Home website provides resources, guidance and information that support distance learning from early learning to senior secondary.</p>",
-        "links": [              {
-                "text": "Find out more about resources for supporting your child from home",
-                "href": "https://learningfromhome.govt.nz/resources?age=Early_Learning"
-              }]
       }
     }
   ]
