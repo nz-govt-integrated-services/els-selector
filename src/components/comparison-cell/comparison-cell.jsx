@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ExternalLink from '../external-link/external-link';
+import Level from '../level/level';
 import { Tooltip } from 'antd';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -16,26 +17,33 @@ export default function ComparisonCell(props) {
   const mappedValue = valueMap[props.value]
 
   return (
-    <div className="d-flex flex-column align-items-center">
-      <div>
-      {
-        props.value && (
-          <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} className="mb-1" />
-        )
-      }
-      {
-        props.text && (
-          <small>{ props.text }</small>
-        )
-      }
+    <div className="d-flex justify-content-start">
+      <div className="d-flex flex-column">
+        {
+          props.level && (
+            <Level data={ props.level } />
+          )
+        }
+        {
+          props.value && (
+            <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} className="mb-1" />
+          )
+        }
+        {
+          props.text && (
+            <small>{ props.text }</small>
+          )
+        }
+      </div>
       {
         props.notes && (
-          <Tooltip title={ props.notes }>
-            <sup className="">&nbsp;*</sup>
-          </Tooltip>
+          <div className="w-10">
+            <Tooltip title={ props.notes }>
+              <sup className="">&nbsp;*</sup>
+            </Tooltip>
+          </div>
         )
       }
-      </div>
       {
         props.links && (
           <div className="small">
@@ -55,12 +63,14 @@ ComparisonCell.defaultProps = {
   notes: '',
   value: '',
   text: '',
-  links: []
+  links: [],
+  level: {}
 };
 
 ComparisonCell.propTypes = {
+  level: PropTypes.object,
   value: PropTypes.string,
   notes: PropTypes.string,
   links: PropTypes.array,
-  text: PropTypes.string,
+  text: PropTypes.string
 };

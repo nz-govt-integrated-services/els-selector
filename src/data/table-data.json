@@ -1,19 +1,36 @@
 {
   "columns": [
     {"key": "name", "dataIndex": "name", "fixed": "left", "width": 150},
-    {"key": "kohanga", "dataIndex": "kohanga", "title": "Kōhanga Reo", "width": 100},
-    {"key": "kindergarten", "dataIndex": "kindergarten", "title": "Kindergarten", "width": 150},
+    {"key": "education_and_care", "dataIndex": "te_kura", "title": "Education and care", "width": 100},
     {"key": "aoga", "dataIndex": "aoga", "title": "Aoga", "width": 100},
     {"key": "montessori", "dataIndex": "montessori", "title": "Montessori", "width": 120},
     {"key": "steiner", "dataIndex": "steiner", "title": "Rudolf Steiner (Waldorf)", "width": 100},
     {"key": "akoteu", "dataIndex": "akoteu", "title": "Akoteu", "width": 100},
+    {"key": "home_based", "dataIndex": "home_based", "title": "Home-based education and care", "width": 100},
+    {"key": "kindergarten", "dataIndex": "kindergarten", "title": "Kindergarten", "width": 150},
+    {"key": "kohanga", "dataIndex": "kohanga", "title": "Kōhanga Reo", "width": 100},
     {"key": "playcentre", "dataIndex": "playcentre", "title": "Playcentre", "width": 110},
-    {"key": "playgroup", "dataIndex": "playgroup", "title": "Playgroup", "width": 100},
     {"key": "puna_kōhungahunga", "dataIndex": "puna_kōhungahunga", "title": "Ngā Puna Kōhungahunga", "width": 160},
-    {"key": "te_kura", "dataIndex": "te_kura", "title": "Te Kura", "width": 100},
-    {"key": "home_based", "dataIndex": "home_based", "title": "Home-based education and care", "width": 100}
+    {"key": "playgroup", "dataIndex": "playgroup", "title": "Playgroup", "width": 100},
+    {"key": "te_kura", "dataIndex": "te_kura", "title": "Te Kura (the Correspondence School)", "width": 140}
   ],
   "rows": [
+    {
+      "name": "Parental involvement level",
+      "key": "parental-involvement",
+      "kohanga": {"text": "High", "notes": "Parents and whānau are encouraged to take part in learning", "level": {"always": {"from": 0, "to": 3}, "sometimes": {"from": 3, "to": 5}}},
+      "kindergarten": {"text": "Medium to high", "level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "te_kura": {"text": "Very high", "notes": "", "level": {"always": {"from": 0, "to": 5}}},
+      "aoga": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "montessori": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "steiner": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "akoteu": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "playcentre": {"level": {"always": {"from": 0, "to": 3}, "sometimes": {"from": 2, "to": 5}}},
+      "puna_kōhungahunga": {"level": {"always": {"from": 0, "to": 4}, "sometimes": {"from": 4, "to": 5}}},
+      "playgroup": {"level": {"always": {"from": 0, "to": 4}, "sometimes": {"from": 4, "to": 5}}},
+      "education_and_care": {"level": {"always": {"from": 0, "to": 1}, "sometimes": {"from": 2, "to": 4}}},
+      "home_based": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}}
+    },
     {
       "name": "Te Reo Māori immersion",
       "key": "te-reo",
@@ -81,22 +98,6 @@
     {
       "name": "Eligible for 20 Hours Free ECE",
       "key": "20-hours",
-      "kohanga": {"value": "true"},
-      "kindergarten": {"value": "true"},
-      "te_kura": {"value": "true"},
-      "aoga": {"value": "true"},
-      "montessori": {"value": "true"},
-      "steiner": {"value": "true"},
-      "akoteu": {"value": "true"},
-      "playcentre": {"value": "true"},
-      "puna_kōhungahunga": {"value": "false"},
-      "playgroup": {"value": "false"},
-      "education_and_care": {},
-      "home_based": {"value": "true"}
-    },
-    {
-      "name": "Parental involvement level",
-      "key": "parental-involvement",
       "kohanga": {"value": "true"},
       "kindergarten": {"value": "true"},
       "te_kura": {"value": "true"},

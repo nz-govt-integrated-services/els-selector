@@ -1,0 +1,18 @@
+@import "../utils/colours";
+
+.level {
+  height: 5px;
+  width: 15px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  display: block;
+  &--always {
+    background-color: darken($green, 40);
+  }
+  &--sometimes {
+    background-color: $green;
+  }
+  &--never {
+    background-color: rgba(#eee, 0.8);
+  }
+}

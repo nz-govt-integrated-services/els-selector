@@ -17,6 +17,7 @@ export default function ComparisonTable(props) {
                         text = { values.text }
                         notes = { values.notes }
                         links = { values.links }
+                        level = { values.level }
         />
         )
       )
@@ -25,7 +26,7 @@ export default function ComparisonTable(props) {
         dataIndex: column.key,
         fixed: column.fixed,
         width: column.width,
-        title: (column.title && <div className={`clickable ${column.key === props.selectedType ? 'active' : ''}`} onClick={() => (props.handleClick(column.key))}>{column.title}</div>),
+        title: (column.title && <div className={`clickable h-100 text-center ${column.key === props.selectedType ? 'active' : ''}`} onClick={() => (props.handleClick(column.key))}>{column.title}</div>),
         render: (values) => (
           typeof(values) === "string" ? render_text(values) : render_comparison_cell(values)
         )
@@ -34,14 +35,13 @@ export default function ComparisonTable(props) {
   }
 
   return (
-    <div style={{width: '100%'}}>
-      <Table
-        columns={ columnsWithRenderFunctions(TABLE_DATA.columns) }
-        dataSource={ TABLE_DATA.rows }
-        scroll={{ x: 800, y: 400 }}
-        pagination={false}
-      />
-    </div>
+    <Table
+      columns={ columnsWithRenderFunctions(TABLE_DATA.columns) }
+      dataSource={ TABLE_DATA.rows }
+      scroll={{ x: 800, y: 400 }}
+      pagination={false}
+      size="small"
+    />
   )
 }
 
