@@ -44,7 +44,7 @@ export default function ProcessGroup(props) {
       <div className="col-md-9 col-12">
       {
         props.checklists.map((checklist, index) => (
-          <div ref={index === activeItem ? activeItemRef : null} class="process-item">
+          <div ref={index === activeItem ? activeItemRef : null} className="process-item">
             <ProcessItem
               data={ checklist }
               key={ `process-item-${index}` }

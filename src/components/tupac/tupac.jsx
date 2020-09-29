@@ -55,9 +55,9 @@ export default function Tupac() {
   }
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid pl-0">
       <div className="row">
-        <div className={ selectedType ? 'col-lg-8 col-md-12' : 'col-12' }>
+        <div className={ selectedType ? 'col-lg-8 col-md-12 pl-0' : 'col-12 pl-0' }>
           <ComparisonTable
             data={TABLE_DATA}
             handleClick={ handleClick }

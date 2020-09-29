@@ -1,149 +1,131 @@
 {
-  "categories": [
+  "columns": [
+    {"key": "name", "dataIndex": "name", "fixed": "left", "width": 150},
+    {"key": "education_and_care", "dataIndex": "te_kura", "title": "Education and care", "width": 100},
+    {"key": "aoga", "dataIndex": "aoga", "title": "Aoga", "width": 100},
+    {"key": "montessori", "dataIndex": "montessori", "title": "Montessori", "width": 120},
+    {"key": "steiner", "dataIndex": "steiner", "title": "Rudolf Steiner (Waldorf)", "width": 100},
+    {"key": "akoteu", "dataIndex": "akoteu", "title": "Akoteu", "width": 100},
+    {"key": "home_based", "dataIndex": "home_based", "title": "Home-based education and care", "width": 100},
+    {"key": "kindergarten", "dataIndex": "kindergarten", "title": "Kindergarten", "width": 150},
+    {"key": "kohanga", "dataIndex": "kohanga", "title": "Kōhanga Reo", "width": 100},
+    {"key": "playcentre", "dataIndex": "playcentre", "title": "Playcentre", "width": 110},
+    {"key": "puna_kōhungahunga", "dataIndex": "puna_kōhungahunga", "title": "Ngā Puna Kōhungahunga", "width": 160},
+    {"key": "playgroup", "dataIndex": "playgroup", "title": "Playgroup", "width": 100},
+    {"key": "te_kura", "dataIndex": "te_kura", "title": "Te Kura (the Correspondence School)", "width": 140}
+  ],
+  "rows": [
     {
-      "name": "Teacher-led services",
-      "description": "These types of service are always led by qualified teachers - at least 50% of staff must have qualifications",
-      "members": ["kindergarten", "aoga", "montessori", "steiner", "akoteu", "home_based", "te_kura", "education_and_care"]
+      "name": "Parental involvement",
+      "key": "parental-involvement",
+      "kohanga": {"text": "High", "notes": "Parents and whānau are encouraged to take part in learning", "level": {"always": {"from": 0, "to": 3}, "sometimes": {"from": 3, "to": 5}}},
+      "kindergarten": {"value": "false", "notes": "Hello", "text": "Medium to high", "level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "te_kura": {"text": "Very high", "notes": "Te Kura sends material for learning, but it must be administered at home", "level": {"always": {"from": 0, "to": 5}}},
+      "aoga": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "montessori": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "steiner": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "akoteu": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "playcentre": {"level": {"always": {"from": 0, "to": 3}, "sometimes": {"from": 2, "to": 5}}},
+      "puna_kōhungahunga": {"level": {"always": {"from": 0, "to": 4}, "sometimes": {"from": 4, "to": 5}}},
+      "playgroup": {"level": {"always": {"from": 0, "to": 4}, "sometimes": {"from": 4, "to": 5}}},
+      "education_and_care": {"level": {"always": {"from": 0, "to": 1}, "sometimes": {"from": 2, "to": 4}}},
+      "home_based": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}}
     },
     {
-      "name": "Parent-led services",
-      "description": "These types of service usually expect more involvement from the parents and whānau.",
-      "members": ["playcentre", "playgroup",  "puna_kōhungahunga", "kohanga"]
-    }
-  ],
-  "types": {
-    "kohanga": {"name": "Kōhanga Reo"},
-    "kindergarten": {"name": "Kindergarten"},
-    "aoga": {"name": "Aoga"},
-    "montessori": {"name": "Montessori"},
-    "steiner": {"name": "Rudolf Steiner (Waldorf)"},
-    "akoteu": {"name": "Akoteu"},
-    "playcentre": {"name": "Playcentre"},
-    "playgroup": {"name": "Playgroup"},
-    "puna_kōhungahunga": {"name": "Ngā Puna Kōhungahunga"},
-    "te_kura": {"name": "Te Kura"},
-    "home_based": {"name": "Home-based education and care"},
-    "education_and_care": {"name": "Education and care"}
-  },
-  "attributes": [
-    {
       "name": "Te Reo Māori immersion",
-      "values": {
-        "kohanga": {"value": "true"},
-        "kindergarten": {"value": "false"},
-        "aoga": {"value": "false", "notes": "Samoan language immersion"},
-        "montessori": {"value": "false"},
-        "steiner": {"value": "false"},
-        "playcentre": {"value": "false"},
-        "playgroup": {"value": "false"},
-        "puna_kōhungahunga": {"value": "true"},
-        "te_kura": {"value": "false"},
-        "akoteu": {"value": "false", "notes": "Tongan language immersion"},
-        "home_based": {"value": "false"},
-        "education_and_care": {"value": "partial"}
-      }
+      "key": "te-reo",
+      "kohanga": {"value": "true"},
+      "kindergarten": {"value": "false"},
+      "aoga": {"value": "false", "notes": "Samoan language immersion"},
+      "montessori": {"value": "false"},
+      "steiner": {"value": "false"},
+      "playcentre": {"value": "false"},
+      "playgroup": {"value": "false"},
+      "puna_kōhungahunga": {"value": "true"},
+      "te_kura": {"value": "false"},
+      "akoteu": {"value": "false", "notes": "Tongan language immersion"},
+      "home_based": {"value": "false"},
+      "education_and_care": {"value": "partial"}
     },
     {
       "name": "Teacher qualification minimums",
-      "values": {
-        "kohanga": {"value": "partial","notes": "Kaiako usually qualified in Te Reo Māori"},
-        "playcentre": {"value": "partial","notes": "Varies from centre to centre"},
-        "playgroup": {"value": "false","notes": "No qualifications required"},
-        "kindergarten": {"value": "true", "notes": "All staff are required to be qualified"},
-        "aoga": {"value": "true"},
-        "puna_kōhungahunga": {"value": "false","notes": "No qualifications required"},
-        "montessori": {"value": "true"},
-        "steiner": {"value": "true"},
-        "te_kura": {"value": "partial", "notes": "Material is designed by qualified ECE teachers, but instruction takes place at home"},
-        "akoteu": {"value": "true"},
-        "home_based": {"value": "partial", "notes":"Educators are supervised by a qualified ECE teacher"},
-        "education_and_care": {}
-      }
+      "key": "teacher-qual",
+      "kohanga": {"value": "partial","notes": "Kaiako usually qualified in Te Reo Māori"},
+      "playcentre": {"value": "partial","notes": "Varies from centre to centre"},
+      "playgroup": {"value": "false","notes": "No qualifications required"},
+      "kindergarten": {"value": "true", "notes": "All staff are required to be qualified"},
+      "aoga": {"value": "true"},
+      "puna_kōhungahunga": {"value": "false","notes": "No qualifications required"},
+      "montessori": {"value": "true"},
+      "steiner": {"value": "true"},
+      "te_kura": {"value": "partial", "notes": "Material is designed by qualified ECE teachers, but instruction takes place at home"},
+      "akoteu": {"value": "true"},
+      "home_based": {"value": "partial", "notes":"Educators are supervised by a qualified ECE teacher"},
+      "education_and_care": {}
     },
     {
       "name": "Number in New Zealand",
-      "values": {
-        "kohanga": {"notes": "440"},
-        "kindergarten": {"notes": "661"},
-        "aoga": {"notes": "16"},
-        "montessori": {"notes": "200"},
-        "steiner": {"notes": "22"},
-        "te_kura": {"notes": "1"},
-        "akoteu": {"notes": "12"},
-        "playcentre": {"notes": "404"},
-        "playgroup": {"value": "unknown", "notes": "Playgroups are license-exempt"},
-        "puna_kōhungahunga": {"value": "unknown", "notes": "As a type of playgroup, puna kōhungahunga are license-exempt"},
-        "education_and_care": {},
-        "home_based": {}
-      }
+      "key": "number",
+      "kohanga": {"text": "440"},
+      "kindergarten": {"text": "661"},
+      "aoga": {"text": "16"},
+      "montessori": {"text": "200"},
+      "steiner": {"text": "22"},
+      "te_kura": {"text": "1", "notes": "Te Kura serves all of Aotearoa"},
+      "akoteu": {"text": "12"},
+      "playcentre": {"text": "404"},
+      "playgroup": {"value": "unknown", "notes": "Playgroups are license-exempt"},
+      "puna_kōhungahunga": {"value": "unknown", "notes": "As a type of playgroup, puna kōhungahunga are license-exempt"},
+      "education_and_care": {},
+      "home_based": {}
     },
     {
       "name": "Ages",
-      "values": {
-        "kohanga": {"notes": "0 - 6"},
-        "kindergarten": {"notes": "Usually 2½ - 5"},
-        "te_kura": {"notes": "3 - 5"},
-        "aoga": {"notes": "0 - 6"},
-        "montessori": {"notes": "0 - 6"},
-        "steiner": {"notes": "0 - 6"},
-        "akoteu": {"notes": "0 - 6"},
-        "playcentre": {"notes": "0 - 6"},
-        "puna_kōhungahunga": {"notes": "0 - 6"},
-        "playgroup": {"notes": "0 - 6"},
-        "education_and_care": {},
-        "home_based": {"notes": "0 - 6"}
-      }
+      "key": "ages",
+      "kohanga": {"text": "0 - 6"},
+      "kindergarten": {"text": "Usually 2½ - 5"},
+      "te_kura": {"text": "3 - 5"},
+      "aoga": {"text": "0 - 6"},
+      "montessori": {"text": "0 - 6"},
+      "steiner": {"text": "0 - 6"},
+      "akoteu": {"text": "0 - 6"},
+      "playcentre": {"text": "0 - 6"},
+      "puna_kōhungahunga": {"text": "0 - 6"},
+      "playgroup": {"text": "0 - 6"},
+      "education_and_care": {},
+      "home_based": {"text": "0 - 6"}
     },
     {
       "name": "Eligible for 20 Hours Free ECE",
-      "values": {
-        "kohanga": {"value": "true"},
-        "kindergarten": {"value": "true"},
-        "te_kura": {"value": "true"},
-        "aoga": {"value": "true"},
-        "montessori": {"value": "true"},
-        "steiner": {"value": "true"},
-        "akoteu": {"value": "true"},
-        "playcentre": {"value": "true"},
-        "puna_kōhungahunga": {"value": "false"},
-        "playgroup": {"value": "false"},
-        "education_and_care": {},
-        "home_based": {"value": "true"}
-      }
-    },
-    {
-      "name": "Parental involvement level",
-      "values": {
-        "kohanga": {"value": "true"},
-        "kindergarten": {"value": "true"},
-        "te_kura": {"value": "true"},
-        "aoga": {"value": "true"},
-        "montessori": {"value": "true"},
-        "steiner": {"value": "true"},
-        "akoteu": {"value": "true"},
-        "playcentre": {"value": "true"},
-        "puna_kōhungahunga": {"value": "false"},
-        "playgroup": {"value": "false"},
-        "education_and_care": {},
-        "home_based": {"value": "true"}
-      }
+      "key": "20-hours",
+      "kohanga": {"value": "true"},
+      "kindergarten": {"value": "true"},
+      "te_kura": {"value": "true"},
+      "aoga": {"value": "true"},
+      "montessori": {"value": "true"},
+      "steiner": {"value": "true"},
+      "akoteu": {"value": "true"},
+      "playcentre": {"value": "true"},
+      "puna_kōhungahunga": {"value": "false"},
+      "playgroup": {"value": "false"},
+      "education_and_care": {},
+      "home_based": {"value": "true"}
     },
     {
       "name": "Cost",
-      "values": {
-        "kohanga": {"value": "true"},
-        "kindergarten": {"value": "true"},
-        "te_kura": {"value": "true"},
-        "aoga": {"value": "true"},
-        "montessori": {"value": "true"},
-        "steiner": {"value": "true"},
-        "akoteu": {"value": "true"},
-        "playcentre": {"value": "true"},
-        "puna_kōhungahunga": {"value": "false"},
-        "playgroup": {"value": "false"},
-        "education_and_care": {},
-        "home_based": {"value": "true"}
-      }
+      "key": "cost",
+      "kohanga": {"value": "true"},
+      "kindergarten": {"value": "true"},
+      "te_kura": {"value": "true"},
+      "aoga": {"value": "true"},
+      "montessori": {"value": "true"},
+      "steiner": {"value": "true"},
+      "akoteu": {"value": "true"},
+      "playcentre": {"value": "true"},
+      "puna_kōhungahunga": {"value": "false"},
+      "playgroup": {"value": "false"},
+      "education_and_care": {},
+      "home_based": {"value": "true"}
     }
   ]
 }
