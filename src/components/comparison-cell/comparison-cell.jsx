@@ -16,40 +16,38 @@ export default function ComparisonCell(props) {
   const mappedValue = valueMap[props.value]
 
   return (
-    <td>
-      <div className="d-flex flex-column align-items-center">
-        <div>
-        {
-          props.value && (
-            <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} className="mb-1" />
-          )
-        }
-        {
-          props.text && (
-            <small>{ props.text }</small>
-          )
-        }
-        {
-          props.notes && (
-            <Tooltip title={ props.notes }>
-              <sup className="">&nbsp;*</sup>
-            </Tooltip>
-          )
-        }
-        </div>
-        {
-          props.links && (
-            <div className="small">
-              {
-                props.links.map((link, index) => (
-                  <ExternalLink href={ link.href } text={ link.text } key={ `${link.href}-${link.text}` } />
-                ))
-              }
-            </div>
-          )
-        }
+    <div className="d-flex flex-column align-items-center">
+      <div>
+      {
+        props.value && (
+          <FontAwesomeIcon icon={ mappedValue.icon } color={`var(--${mappedValue.color})`} className="mb-1" />
+        )
+      }
+      {
+        props.text && (
+          <small>{ props.text }</small>
+        )
+      }
+      {
+        props.notes && (
+          <Tooltip title={ props.notes }>
+            <sup className="">&nbsp;*</sup>
+          </Tooltip>
+        )
+      }
       </div>
-    </td>
+      {
+        props.links && (
+          <div className="small">
+            {
+              props.links.map((link, index) => (
+                <ExternalLink href={ link.href } text={ link.text } key={ `${link.href}-${link.text}` } />
+              ))
+            }
+          </div>
+        )
+      }
+    </div>
   )
 }
 
