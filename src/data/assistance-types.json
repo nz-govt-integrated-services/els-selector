@@ -1,0 +1,95 @@
+[
+  {
+    "title": "20 Hours Free ECE",
+    "ages": [
+      {
+        "from": "3 years old",
+        "to": "5 years old",
+        "hours": "Up to 6 hours a day and a maximum of 20 hours a week"
+      }
+    ],
+    "qualifications": [
+      "All children between 3 and 5 are eligible, regardless of income or immigration status."
+    ]
+  },
+  {
+    "title": "Childcare Subsidy (CCS)",
+    "ages": [
+      {
+        "from": "0 years old",
+        "to": "5, or starting primary school",
+        "hours": "Up to 50 hours a week if you are working, studying or training and your partner can't provide childcare. Up to 9 hours a week if you aren't working, studying or training."
+      }
+    ],
+    "qualifications": [
+      "Meet an income test",
+      "Be the main caregiver of a dependent child under 5, or 5 but hasn't started school yet",
+      "Child attends an approved early childhood programme for at least 3 hours a week",
+      "Work, study or train",
+      "If you receive a Child Disability Allowance",
+      "If you have a child in hospital"
+    ]
+  },
+  {
+    "title": "Guaranteed Childcare Assistance Payment (GCAP)",
+    "ages": [
+      {
+        "from": "0 years old",
+        "to": "3 years old",
+        "hours": "Up to 50 hours a week"
+      },
+      {
+        "from": "3 years old",
+        "to": "5 years old, or starting primary school",
+        "hours": "Up to 50 hours a week excluding 20 Hours Free ECE hours"
+      }
+    ],
+    "qualifications": [
+      "Parent is under 19",
+      "Meets youth activity obligations",
+      "Parent is getting Young Parent Payment or has youth obligations",
+      "Main caregiver of a child who hasn't started primary school",
+      "Child is attending an approved early childhood education programme or service"
+    ]
+  },
+  {
+    "title": "Early Learning Payment (ELP)",
+    "ages": [
+      {
+        "from": "18 months old",
+        "to": "3 years old",
+        "hours": "20 hours a week"
+      }
+    ],
+    "qualifications": [
+      "Enrolled in a Family Start or Early Start programme",
+      "Caregiver of a dependent child",
+      "Child attends an Early Childhood Education centre or service"
+    ]
+  },
+  {
+    "title": "Flexible Childcare Payment",
+    "ages": [
+      {
+        "from": "0 months old",
+        "to": "18 years old",
+        "hours": "Between $50 and $150 a week for up to 26 weeks"
+      }
+    ],
+    "qualifications": [
+      "Is a sole parent getting Jobseeker or Sole Parent Support",
+      "Is cancelling their benefit due to employment reasons",
+      "Works at least 3 hours a week during times when childcare programmes are closed"
+    ]
+  },
+  {
+    "title": "Assistance with Child Disability Allowance or child in hospital",
+    "ages": [
+      {
+        "from": "0 months old",
+        "to": "18 years old",
+        "hours": "Between $50 and $150 a week for up to 26 weeks"
+      }
+    ]
+  }
+]
