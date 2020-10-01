@@ -10,7 +10,7 @@ function TablePage() {
         <div className="row">
           <div className="col-lg-12">
             <h1 className="mb-4">Comparison table</h1>
-            <p>This is a table to compare different types of ECE. Click on a service type to see more information about it.</p>
+            <p>This table provides an overview of what different services offer so you can easily compare features at a glance. Click on a service type to learn more about it.</p>
             <Tupac />
           </div>
         </div>
