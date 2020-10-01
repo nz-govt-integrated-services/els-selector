@@ -12,7 +12,7 @@ function HomePage() {
         <div className="row mb-4">
           <div className="col-12">
             <h1 className="mb-4">How do we sign up for an early learning service?</h1>
-            <p>Not sure where to start? It is here.</p>
+            <p>Finding an early learning service can be a tricky journey to begin but is ultimately incredibly rewarding for your whole family. On this site, you will learn about the process to follow for enrolment, the types of service that you can choose from and their similarities/differences, and see what financial support you can receive from the government. </p>
           </div>
         </div>
         <ProcessGroup checklists={ CHECKLIST_DATA } />
