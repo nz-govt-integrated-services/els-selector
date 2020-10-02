@@ -10,6 +10,7 @@ function FinancialHelpPage() {
       <NavBar />
       <div className="container py-4">
         <h1 className="mb-4">What financial help could you get?</h1>
+        <p>Explore this page to find out what financial assistance you may be eligible for to help get your child into an ECE.</p>
         <div className="row">
           {
             ASSISTANCETYPE_DATA.map((type, index) => (
