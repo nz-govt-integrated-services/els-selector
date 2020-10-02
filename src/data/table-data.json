@@ -114,18 +114,18 @@
     {
       "name": "Cost",
       "key": "cost",
-      "kohanga": {"text": "$25 per session"},
-      "kindergarten": {"text": "$25 per session"},
-      "te_kura": {"text": "Free"},
-      "aoga": {"text": "$25 per session"},
-      "montessori": {"text": "$25 per session"},
-      "steiner": {"text": "$25 per session"},
-      "akoteu": {"text": "$40 per week"},
-      "playcentre": {"text": "$30 per term"},
-      "puna_kōhungahunga": {"text": "$5-$9 per hour"},
-      "playgroup": {"text": "$3-$5 per hour"},
-      "education_and_care": {"text": "$5-$10 per hour"},
-      "home_based": {"text": "$2-$5 per hour"}
+      "kohanga": {"level": {"always": {"from": 0, "to": 3}, "sometimes": {"from": 3, "to": 5}}},
+      "kindergarten": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "te_kura": {"level": {"always": {"from": 0, "to": 5}}},
+      "aoga": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "montessori": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "steiner": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "akoteu": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}},
+      "playcentre": {"level": {"always": {"from": 0, "to": 3}, "sometimes": {"from": 2, "to": 5}}},
+      "puna_kōhungahunga": {"level": {"always": {"from": 0, "to": 4}, "sometimes": {"from": 4, "to": 5}}},
+      "playgroup": {"level": {"always": {"from": 0, "to": 4}, "sometimes": {"from": 4, "to": 5}}},
+      "education_and_care": {"level": {"always": {"from": 0, "to": 1}, "sometimes": {"from": 2, "to": 4}}},
+      "home_based": {"level": {"always": {"from": 0, "to": 2}, "sometimes": {"from": 2, "to": 4}}}
     }
   ]
 }
