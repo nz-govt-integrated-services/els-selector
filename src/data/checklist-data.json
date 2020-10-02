@@ -9,7 +9,7 @@
       },
       {
         "heading": "Think about what type of service meets the needs of you, your child, and your whānau.",
-        "text": "Different early childhood services have different approaches to children's learning. Consider your future needs and navigate our support tool here [link]."
+        "text": "Different early childhood services have different approaches to children's learning. <a ref='https://nz-govt-integrated-services.github.io/els-selector/#/table'class='external-link'> Compare</a> the different service types and consider your future needs by navigating our <a ref='https://nz-govt-integrated-services.github.io/els-selector/#/decision-tree'class = 'external-link'>support tool</a>."
       },
       {
         "heading": "Consider and plan for paying fees.",
@@ -18,6 +18,10 @@
       {
         "heading": "Be aware of availability.",
         "text": "Some services won't have the space when you need it or you may have to go on a waiting list. Start considering your options by going online or talking to friends and whānau as early as possible to secure a space for your child."
+      },
+      {
+        "heading": "Thinking about accessibility and transport",
+        "text": "Depending on the location of the service that you ultimately end up enrolling with, you may have to consider means of transport for your child, both to and from the centre. This could either be making sure that your car is equipped with the correct car seat for your child, securing a friend or family member to do the pick-up/drop-off for you, or asking childcare services whether they supply transport options when you are gathering research about your choices."
       }
     ]
   },
