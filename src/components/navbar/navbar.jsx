@@ -7,7 +7,7 @@ export default function NavBar(props) {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return(
-    <nav className="navbar navbar-expand-lg navbar-dark bg-impendingstorm--deep">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-forest">
       <NavLink exact to="/" className="navbar-brand" activeClassName="active">Start Well</NavLink>
       <button className="navbar-toggler"
               type="button"
