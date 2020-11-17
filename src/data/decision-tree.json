@@ -1,76 +1,282 @@
 {
-  "question": "All early learning services are required to involve whānau and community as part of the Te Whāriki curriculum. However, we know that, in between work and other commitments, some parents are only available certain hours of the day. What is your day-to-day availability?",
-  "answers": [
+  "question": "Full language immersion means that more than 80% of the communication is in the chosen language. What language do you want your child to be immersed in?",
+    "answers": [
     {
-      "answer": "I’m able to spend most of the day with my child",
+      "answer": "English",
       "subquestion": {
-        "question": "What language do you want your child to be immersed in?",
+        "question": "All early learning services are required to involve whānau and community as part of the Te Whāriki curriculum. However, we know that, in between work and other commitments, some parents are only available certain hours of the day. What is your weekly availability?",
         "answers": [
           {
-            "answer": "English",
-            "result": {
-              "options": [
+            "answer": "I’m able to spend most of the week with my child",
+            "subquestion": {
+              "question": "Where would you like your child’s education and care to be held?",
+              "answers": [
                 {
-                  "heading": "Playcentre",
-                  "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
-                  "conditions": [
-                  ]
+                  "answer": "In a centre",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Playcentre",
+                        "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Playgroup",
+                        "text": "<p>Playgroups are community-based groups run by parents and whānau volunteers for children from birth to school age. To be a playgroup, more than half the children attending must have a parent there with them. 1 to 5 sessions are held a week for no more than 4 hours per day. Playgroups can be certificated and may be less formal than other types of education and care. This means that they may not have an Education Review Office report. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education. </p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }
+                    ]
+                  }
                 },
                 {
-                  "heading": "Playgroup",
-                  "text": "<p>Playgroups are community-based groups run by parents and whānau volunteers for children from birth to school age. To be a playgroup, more than half the children attending must have a parent there with them. 1 to 5 sessions are held a week for no more than 4 hours per day. Playgroups can be certificated and may be less formal than other types of education and care. This means that they may not have an Education Review Office report. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education. </p>",
-                  "conditions": [
-                  ]
+                  "answer": "Home-based setting",
+                  "result": {
+                    "options": [
+                      {
+                        "heading": "Te Kura (the Correspondence School)",
+                        "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
+                         "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "answer": "I don't mind",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Playcentre",
+                        "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Playgroup",
+                        "text": "<p>Playgroups are community-based groups run by parents and whānau volunteers for children from birth to school age. To be a playgroup, more than half the children attending must have a parent there with them. 1 to 5 sessions are held a week for no more than 4 hours per day. Playgroups can be certificated and may be less formal than other types of education and care. This means that they may not have an Education Review Office report. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education. </p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Te Kura (the Correspondence School)",
+                        "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
+                         "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }           
+                    ]
+                  }
                 }
               ]
             }
           },
           {
-            "answer": "Te Reo",
-            "result": {
-              "options": [
+            "answer": "I’m unable to spend most of the week with my child and need someone else to lead the education and care",
+            "subquestion": {
+              "question": "Where would you like your child’s education and care to be held?",
+              "answers": [
                 {
-                  "heading": "Te Kōhanga Reo",
-                  "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
-                  "conditions": [
-                  ]
+                  "answer": "In a centre",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Education and care services",
+                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services.",
+                        "conditions": [
+                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
+                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
+                        ]
+                      },
+                      {
+                        "heading": "Kindergarten ",
+                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }          
+                    ]
+                  }
                 },
                 {
-                  "heading": "Ngā Puna Kōhungahunga",
-                  "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on teaching te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only. As with all playgroups, puna kōhungahunga are run by parents and whānau volunteers for children from birth to school age. More than half the children attending must have a parent there with them. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education.</p>",
-                  "conditions": [
-                  ]
+                  "answer": "Home-based setting",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Home-based education and care",
+                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                        "conditions": [
+                         ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }          
+                    ]
+                  }
+                },
+                {
+                  "answer": "I don't mind",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Education and care services",
+                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services.",
+                        "conditions": [
+                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
+                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
+                        ]
+                      },
+                      {
+                        "heading": "Kindergarten ",
+                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Home-based education and care",
+                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                        "conditions": [
+                         ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }          
+                    ]
+                  }
                 }
               ]
             }
           },
           {
             "answer": "I don't mind",
-            "result": {
-              "options": [
+            "subquestion": {
+              "question": "Where would you like your child’s education and care to be held?",
+              "answers": [
                 {
-                  "heading": "Playcentre",
-                  "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
-                  "conditions": [
-                  ]
+                  "answer": "In a centre",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Playcentre",
+                        "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Playgroup",
+                        "text": "<p>Playgroups are community-based groups run by parents and whānau volunteers for children from birth to school age. To be a playgroup, more than half the children attending must have a parent there with them. 1 to 5 sessions are held a week for no more than 4 hours per day. Playgroups can be certificated and may be less formal than other types of education and care. This means that they may not have an Education Review Office report. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education. </p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Education and care services",
+                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services.",
+                        "conditions": [
+                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
+                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
+                        ]
+                      },
+                      {
+                        "heading": "Kindergarten ",
+                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }           
+                    ]
+                  }
                 },
                 {
-                  "heading": "Playgroup",
-                  "text": "<p>Playgroups are community-based groups run by parents and whānau volunteers for children from birth to school age. To be a playgroup, more than half the children attending must have a parent there with them. 1 to 5 sessions are held a week for no more than 4 hours per day. Playgroups can be certificated and may be less formal than other types of education and care. This means that they may not have an Education Review Office report. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education. </p>",
-                  "conditions": [
-                  ]
+                  "answer": "Home-based setting",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Te Kura (the Correspondence School)",
+                        "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
+                         "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Home-based education and care",
+                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                        "conditions": [
+                         ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }           
+                    ]
+                  }
                 },
                 {
-                  "heading": "Te Kōhanga Reo",
-                  "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
-                  "conditions": [
-                  ]
-                },
-                {
-                  "heading": "Ngā Puna Kōhungahunga",
-                  "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on teaching te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only. As with all playgroups, puna kōhungahunga are run by parents and whānau volunteers for children from birth to school age. More than half the children attending must have a parent there with them. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education.</p>",
-                  "conditions": [
-                  ]
+                  "answer": "I don't mind",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Playcentre",
+                        "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Playgroup",
+                        "text": "<p>Playgroups are community-based groups run by parents and whānau volunteers for children from birth to school age. To be a playgroup, more than half the children attending must have a parent there with them. 1 to 5 sessions are held a week for no more than 4 hours per day. Playgroups can be certificated and may be less formal than other types of education and care. This means that they may not have an Education Review Office report. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education. </p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Te Kura (the Correspondence School)",
+                        "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
+                         "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Education and care services",
+                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services.",
+                        "conditions": [
+                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
+                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
+                        ]
+                      },
+                      {
+                        "heading": "Kindergarten ",
+                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Home-based education and care",
+                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                        "conditions": [
+                         ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }           
+                    ]
+                  }
                 }
               ]
             }
@@ -79,253 +285,123 @@
       }
     },
     {
-      "answer": "I’m unable to spend most of the day with my child and need someone else to lead the education and care",
+      "answer": "Te Reo",
       "subquestion": {
-        "question": "What language do you want your child to be immersed in?",
+        "question": "All early learning services are required to involve whānau and community as part of the Te Whāriki curriculum. However, we know that, in between work and other commitments, some parents are only available certain hours of the day. What is your weekly availability?",
         "answers": [
           {
-            "answer": "English",
-            "subquestion": {
-              "question": "Where would you like your child’s education and care to be held?",
-              "answers": [
+            "answer": "I’m able to spend most of the week with my child",
+            "result": {
+              "options": [  
                 {
-                  "answer": "Centre",
-                  "result": {
-                    "options": [
-                      {
-                        "heading": "Education and care services",
-                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
-                        "conditions": [
-                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes.",
-                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
-                        ]
-                      },
-                      {
-                        "heading": "Kindergarten ",
-                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
-                        "conditions": [
-                        ]
-                      }
-                    ]
-                  }
+                  "heading": "Te Kōhanga Reo",
+                  "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
+                  "conditions": [
+                  ]
                 },
                 {
-                  "answer": "Home-based setting",
-                  "result": {
-                    "options": [
-                      {
-                        "heading": "Home-based education and care",
-                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
-                        "conditions": [
-                         ]
-                      }
-                    ]
-                  }
+                  "heading": "Ngā Puna Kōhungahunga",
+                  "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on teaching te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only. As with all playgroups, puna kōhungahunga are run by parents and whānau volunteers for children from birth to school age. More than half the children attending must have a parent there with them. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education.</p>",
+                  "conditions": [
+                  ]
                 },
                 {
-                  "answer": "I don't mind",
-                  "result": {
-                    "options": [
-                      {
-                        "heading": "Education and care services",
-                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
-                        "conditions": [
-                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes.",
-                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
-                        ]
-                      },
-                      {
-                        "heading": "Kindergarten ",
-                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
-                        "conditions": [
-                        ]
-                      },
-                      {
-                        "heading": "Home-based education and care",
-                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
-                        "conditions": [
-                         ]
-                      }
-                    ]
-                  }
-                }
+                  "heading": "",
+                  "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                }            
               ]
             }
           },
           {
-            "answer": "Te Reo",
+            "answer": "I’m unable to spend most of the week with my child and need someone else to lead the education and care",
             "result": {
-              "options": [
+              "options": [  
                 {
                   "heading": "Puna Reo",
                   "text": "Puna Reo early childhood centres are kaupapa Māori focused and promote te reo and tikanga Māori. They are run by registered teachers, in comparison to kōhanga reo which are often run by whānau.",
                   "conditions": [
                     ]
-                }
-              ]
-            }
-          },
-          {
-            "answer": "Other",
-            "result": {
-              "options": [
-                {
-                  "heading": "A'oga",
-                  "text": "A’oga are Samoan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
-                  "conditions": [
-                    ]
                 },
                 {
-                  "heading": "Akoteu",
-                  "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
-                  "conditions": [
-                    ]
-                }
+                  "heading": "",
+                  "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                }            
               ]
             }
           },
           {
             "answer": "I don't mind",
-            "subquestion": {
-              "question": "Where would you like your child’s education and care to be held?",
-              "answers": [
+            "result": {
+              "options": [  
                 {
-                  "answer": "Centre",
-                  "result": {
-                    "options": [
-                      {
-                        "heading": "Education and care services",
-                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
-                        "conditions": [
-                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes.",
-                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
-                        ]
-                      },
-                      {
-                        "heading": "Kindergarten ",
-                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
-                        "conditions": [
-                        ]
-                      },
-                      {
-                        "heading": "Puna Reo",
-                        "text": "Puna Reo early childhood centres are kaupapa Māori focused and promote te reo and tikanga Māori. They are run by registered teachers, in comparison to kōhanga reo which are often run by whānau.",
-                        "conditions": [
-                          ]
-                      },
-                      {
-                        "heading": "A'oga",
-                        "text": "A’oga are Samoan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
-                        "conditions": [
-                          ]
-                      },
-                      {
-                        "heading": "Akoteu",
-                        "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
-                        "conditions": [
-                          ]
-                      }
-                    ]
-                  }
+                  "heading": "Te Kōhanga Reo",
+                  "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
+                  "conditions": [
+                  ]
                 },
                 {
-                  "answer": "Home-based setting",
-                  "result": {
-                    "options": [
-                      {
-                        "heading": "Home-based education and care",
-                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
-                        "conditions": [
-                         ]
-                      }
-                    ]
-                  }
+                  "heading": "Ngā Puna Kōhungahunga",
+                  "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on teaching te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only. As with all playgroups, puna kōhungahunga are run by parents and whānau volunteers for children from birth to school age. More than half the children attending must have a parent there with them. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education.</p>",
+                  "conditions": [
+                  ]
                 },
                 {
-                  "answer": "I don't mind",
-                  "result": {
-                    "options": [
-                      {
-                        "heading": "Education and care services",
-                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
-                        "conditions": [
-                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes.",
-                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
-                        ]
-                      },
-                      {
-                        "heading": "Kindergarten ",
-                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
-                        "conditions": [
-                        ]
-                      },
-                      {
-                        "heading": "Home-based education and care",
-                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
-                        "conditions": [
-                         ]
-                      },
-                      {
-                        "heading": "Puna Reo",
-                        "text": "Puna Reo early childhood centres are kaupapa Māori focused and promote te reo and tikanga Māori. They are run by registered teachers, in comparison to kōhanga reo which are often run by whānau.",
-                        "conditions": [
-                          ]
-                      },
-                      {
-                        "heading": "A'oga",
-                        "text": "A’oga are Samoan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
-                        "conditions": [
-                          ]
-                      },
-                      {
-                        "heading": "Akoteu",
-                        "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
-                        "conditions": [
-                          ]
-                      },
-                      {
-                        "heading": "Home-based education and care",
-                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
-                        "conditions": [
-                         ]
-                      }
+                  "heading": "Puna Reo",
+                  "text": "Puna Reo early childhood centres are kaupapa Māori focused and promote te reo and tikanga Māori. They are run by registered teachers, in comparison to kōhanga reo which are often run by whānau.",
+                  "conditions": [
                     ]
-                  }
-                }
+                },
+                {
+                  "heading": "",
+                  "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                }            
               ]
             }
           }
+        ]
+      }
+    },
+    {
+      "answer": "Other",
+      "result": {
+        "options": [  
+          {
+            "heading": "",
+            "text": "<p><strong>Some early learning services offer education and care in languages other than English and te reo. Here are just two examples. </strong></p>"
+          },
+          {
+            "heading": "A'oga",
+            "text": "A’oga are Samoan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
+            "conditions": [
+              ]
+          },
+          {
+            "heading": "Akoteu",
+            "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
+            "conditions": [
+              ]
+          },
+          {
+            "heading": "",
+            "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+          }            
         ]
       }
     },
     {
       "answer": "I don't mind",
       "subquestion": {
-        "question": "What language do you want your child to be immersed in??",
+        "question": "All early learning services are required to involve whānau and community as part of the Te Whāriki curriculum. However, we know that, in between work and other commitments, some parents are only available certain hours of the day. What is your weekly availability?",
         "answers": [
           {
-            "answer": "English",
+            "answer": "I’m able to spend most of the week with my child",
             "subquestion": {
               "question": "Where would you like your child’s education and care to be held?",
               "answers": [
                 {
                   "answer": "In a centre",
                   "result": {
-                    "options": [
-                      {
-                        "heading": "Education and care services",
-                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
-                        "conditions": [
-                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes.",
-                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
-                        ]
-                      },
-                      {
-                        "heading": "Kindergarten ",
-                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
-                        "conditions": [
-                        ]
-                      },
+                    "options": [  
                       {
                         "heading": "Playcentre",
                         "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
@@ -337,41 +413,47 @@
                         "text": "<p>Playgroups are community-based groups run by parents and whānau volunteers for children from birth to school age. To be a playgroup, more than half the children attending must have a parent there with them. 1 to 5 sessions are held a week for no more than 4 hours per day. Playgroups can be certificated and may be less formal than other types of education and care. This means that they may not have an Education Review Office report. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education. </p>",
                         "conditions": [
                         ]
-                      }
+                      }, 
+                      {
+                        "heading": "Te Kōhanga Reo",
+                        "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Ngā Puna Kōhungahunga",
+                        "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on teaching te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only. As with all playgroups, puna kōhungahunga are run by parents and whānau volunteers for children from birth to school age. More than half the children attending must have a parent there with them. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education.</p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      } 
                     ]
                   }
                 },
                 {
                   "answer": "Home-based setting",
                   "result": {
-                    "options": [
+                    "options": [  
                       {
-                        "heading": "Home-based education and care",
-                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                        "heading": "Te Kura (the Correspondence School)",
+                        "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
                         "conditions": [
-                         ]
-                      }
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }             
                     ]
                   }
                 },
                 {
                   "answer": "I don't mind",
                   "result": {
-                    "options": [
-                      {
-                        "heading": "Education and care services",
-                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
-                        "conditions": [
-                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes.",
-                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
-                        ]
-                      },
-                      {
-                        "heading": "Kindergarten ",
-                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
-                        "conditions": [
-                        ]
-                      },
+                    "options": [  
                       {
                         "heading": "Playcentre",
                         "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
@@ -385,57 +467,146 @@
                         ]
                       },
                       {
-                        "heading": "Home-based education and care",
-                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                        "heading": "Te Kura (the Correspondence School)",
+                        "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
                         "conditions": [
-                         ]
-                      }
+                        ]
+                      }, 
+                      {
+                        "heading": "Te Kōhanga Reo",
+                        "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Ngā Puna Kōhungahunga",
+                        "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on teaching te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only. As with all playgroups, puna kōhungahunga are run by parents and whānau volunteers for children from birth to school age. More than half the children attending must have a parent there with them. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education.</p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }             
                     ]
                   }
                 }
               ]
-            }
+            }            
           },
           {
-            "answer": "Te Reo",
-            "result": {
-              "options": [
+            "answer": "I’m unable to spend most of the week with my child and need someone else to lead the education and care",
+            "subquestion": {
+              "question": "Where would you like your child’s education and care to be held?",
+              "answers": [
                 {
-                  "heading": "Te Kōhanga Reo",
-                  "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
-                  "conditions": [
-                  ]
+                  "answer": "In a centre",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Education and care services",
+                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services.",
+                        "conditions": [
+                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
+                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
+                        ]
+                      },
+                      {
+                        "heading": "Kindergarten ",
+                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Puna Reo",
+                        "text": "Puna Reo early childhood centres are kaupapa Māori focused and promote te reo and tikanga Māori. They are run by registered teachers, in comparison to kōhanga reo which are often run by whānau.",
+                        "conditions": [
+                          ]
+                      },
+                      {
+                        "heading": "A'oga",
+                        "text": "A’oga are Samoan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
+                        "conditions": [
+                          ]
+                      },
+                      {
+                        "heading": "Akoteu",
+                        "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
+                        "conditions": [
+                          ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }            
+                    ]
+                  }
                 },
                 {
-                  "heading": "Ngā Puna Kōhungahunga",
-                  "text": "<p>Ngā puna kōhungahunga are a type of playgroup that focus on teaching te reo Māori and tikanga. Learning may be in both English and te reo or in te reo only. As with all playgroups, puna kōhungahunga are run by parents and whānau volunteers for children from birth to school age. More than half the children attending must have a parent there with them. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education.</p>",
-                  "conditions": [
-                  ]
+                  "answer": "Home-based setting",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Home-based education and care",
+                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                        "conditions": [
+                         ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }            
+                    ]
+                  }
                 },
                 {
-                  "heading": "Puna Reo",
-                  "text": "Puna Reo early childhood centres are kaupapa Māori focused and promote te reo and tikanga Māori. They are run by registered teachers, in comparison to kōhanga reo which are often run by whānau.",
-                  "conditions": [
+                  "answer": "I don't mind",
+                  "result": {
+                    "options": [  
+                      {
+                        "heading": "Education and care services",
+                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services.",
+                        "conditions": [
+                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
+                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
+                        ]
+                      },
+                      {
+                        "heading": "Kindergarten ",
+                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "Home-based education and care",
+                        "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
+                        "conditions": [
+                         ]
+                      },
+                      {
+                        "heading": "Puna Reo",
+                        "text": "Puna Reo early childhood centres are kaupapa Māori focused and promote te reo and tikanga Māori. They are run by registered teachers, in comparison to kōhanga reo which are often run by whānau.",
+                        "conditions": [
+                          ]
+                      },
+                      {
+                        "heading": "A'oga",
+                        "text": "A’oga are Samoan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
+                        "conditions": [
+                          ]
+                      },
+                      {
+                        "heading": "Akoteu",
+                        "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
+                        "conditions": [
+                          ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }           
                     ]
-                }
-              ]
-            }
-          },
-          {
-            "answer": "Other",
-            "result": {
-              "options": [
-                {
-                  "heading": "A'oga",
-                  "text": "A’oga are Samoan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
-                  "conditions": [
-                    ]
-                },
-                {
-                  "heading": "Akoteu",
-                  "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
-                  "conditions": [
-                    ]
+                  }
                 }
               ]
             }
@@ -448,21 +619,7 @@
                 {
                   "answer": "In a centre",
                   "result": {
-                    "options": [
-                      {
-                        "heading": "Education and care services",
-                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
-                        "conditions": [
-                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes.",
-                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
-                        ]
-                      },
-                      {
-                        "heading": "Kindergarten ",
-                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
-                        "conditions": [
-                        ]
-                      },
+                    "options": [  
                       {
                         "heading": "Playcentre",
                         "text": "Playcentres are supervised and managed by parents for children from birth to school age. Children under the age of 2 and a half should be accompanied by a parent/caregiver. 1 to 5 sessions are held a week, usually for 4 hours a day. As well as children’s learning, playcentres also provide free educational programmes for parents/whānau, increasing parents’ understanding of how children learn and develop, and can lead to playcentre and early childhood qualifications.",
@@ -474,7 +631,21 @@
                         "text": "<p>Playgroups are community-based groups run by parents and whānau volunteers for children from birth to school age. To be a playgroup, more than half the children attending must have a parent there with them. 1 to 5 sessions are held a week for no more than 4 hours per day. Playgroups can be certificated and may be less formal than other types of education and care. This means that they may not have an Education Review Office report. Parents and whānau who run the sessions receive information, support and training from the Ministry of Education. </p>",
                         "conditions": [
                         ]
-                      },                      
+                      },
+                      {
+                        "heading": "Education and care services",
+                        "text": "Education and care services is an umbrella term for a variety of teacher-led services and are often known by other names, such as daycare or creche.  They cater to a range of ages, languages, session times, and philosophies. With varying session lengths, it is useful to bear in mind that the longer the session you require, the more likely that you will have to pay more for these services.",
+                        "conditions": [
+                          "Montessori: Montessori is a type of education and care service based on Dr Maria Montessori’s philosophy. Education is supported through the use of specific Montessori materials and activities. Montessori centres accept birth to school age. Children are encouraged to be in mixed-age classes. As with all education and care services, this is a teacher-led service. Teachers may also hold specialist Montessori qualifications.",
+                          "Rudolf Steiner (Waldorf) centres: Steiner/Waldorf is a type of education and care service based on Rudolf Steiner’s philosophy. The use of computers, electronic media, and television are discouraged for young children within this philosophy. As with all education and care services, this is a teacher-led service."
+                        ]
+                      },
+                      {
+                        "heading": "Kindergarten ",
+                        "text": "<p>Kindergartens are teacher-led services for children between 2 and school age. Most kindergartens run for six hours each day and mirror the school calendar, meaning they can close for school holidays. 100% of kindergartens’ teachers have to be qualified.</p>",
+                        "conditions": [
+                        ]
+                      },
                       {
                         "heading": "Te Kōhanga Reo",
                         "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
@@ -504,7 +675,11 @@
                         "text": "Akoteu are Tongan education and care services. They can either be full immersion (more than 80% of the communication is in the desired language), bilingual (with English), or multilingual (including English and te reo Māori). As with all education and care services, this is a teacher-led service.",
                         "conditions": [
                           ]
-                      }
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      } 
                     ]
                   }
                 },
@@ -513,11 +688,21 @@
                   "result": {
                     "options": [
                       {
+                        "heading": "Te Kura (the Correspondence School)",
+                        "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
+                         "conditions": [
+                        ]
+                      },
+                      {
                         "heading": "Home-based education and care",
                         "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
                         "conditions": [
                          ]
-                      }
+                      }, 
+                      {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }                                 
                     ]
                   }
                 },
@@ -526,11 +711,11 @@
                   "result": {
                     "options": [
                       {
-                        "heading": "Have a look at this page",
-                        "text": "You might find any of the service types useful - check out this link.",
+                        "heading": "",
+                        "text": "All early learning services deliver the curriculum, Te Whāriki, so you can be assured that your choice of service will provide education and care for your child. We recommend that you read through the different types of services to see if factors such as language and parental involvement affect your shortlisting decisions [link to Service Types].",
                         "conditions": [
                         ]
-                      }
+                      }                                 
                     ]
                   }
                 }
