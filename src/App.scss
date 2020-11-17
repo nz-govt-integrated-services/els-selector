@@ -28,9 +28,9 @@ html {
 .clickable {
   cursor: pointer;
   &:hover, &:active {
-    background-color: var(--impendingstorm--highlight);
+    background-color: var(--lightforest);
   }
   &.active {
-    background-color: var(--impendingstorm);
+    background-color: var(--forest);
   }
 }
