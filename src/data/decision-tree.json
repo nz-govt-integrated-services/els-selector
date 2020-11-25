@@ -41,12 +41,22 @@
                       {
                         "heading": "Te Kura (the Correspondence School)",
                         "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
-                         "conditions": [
+                        "conditions": [
                         ]
                       },
                       {
                         "heading": "",
-                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                        "text": "<p><strong> Please note that you must meet certain criteria within Te Kura’s enrolment policy.  </strong></p>",
+                        "links": [
+                          {
+                            "text": "Learn more about Te Kura",
+                            "href": "https://www.tekura.school.nz/"
+                          },
+                          {
+                            "text": "Enrolment Policy",
+                            "href": "https://www.tekura.school.nz/assets/enrolment/Te-Kura-Enrolment-and-Dual-Tuition-Policy-2019.pdf"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -68,14 +78,28 @@
                         ]
                       },
                       {
+                        "heading": "",
+                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                      }, 
+                      {
                         "heading": "Te Kura (the Correspondence School)",
                         "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
-                         "conditions": [
+                        "conditions": [
                         ]
                       },
                       {
                         "heading": "",
-                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                        "text": "<p><strong> Please note that you must meet certain criteria within Te Kura’s enrolment policy.  </strong></p>",
+                        "links": [
+                          {
+                            "text": "Learn more about Te Kura",
+                            "href": "https://www.tekura.school.nz/"
+                          },
+                          {
+                            "text": "Enrolment Policy",
+                            "href": "https://www.tekura.school.nz/assets/enrolment/Te-Kura-Enrolment-and-Dual-Tuition-Policy-2019.pdf"
+                          }
+                        ]
                       }           
                     ]
                   }
@@ -121,7 +145,7 @@
                         "heading": "Home-based education and care",
                         "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
                         "conditions": [
-                         ]
+                        ]
                       },
                       {
                         "heading": "",
@@ -152,7 +176,7 @@
                         "heading": "Home-based education and care",
                         "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
                         "conditions": [
-                         ]
+                        ]
                       },
                       {
                         "heading": "",
@@ -213,14 +237,28 @@
                       {
                         "heading": "Te Kura (the Correspondence School)",
                         "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
-                         "conditions": [
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong> Please note that you must meet certain criteria within Te Kura’s enrolment policy.  </strong></p>",
+                        "links": [
+                          {
+                            "text": "Learn more about Te Kura",
+                            "href": "https://www.tekura.school.nz/"
+                          },
+                          {
+                            "text": "Enrolment Policy",
+                            "href": "https://www.tekura.school.nz/assets/enrolment/Te-Kura-Enrolment-and-Dual-Tuition-Policy-2019.pdf"
+                          }
                         ]
                       },
                       {
                         "heading": "Home-based education and care",
                         "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
                         "conditions": [
-                         ]
+                        ]
                       },
                       {
                         "heading": "",
@@ -248,7 +286,21 @@
                       {
                         "heading": "Te Kura (the Correspondence School)",
                         "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
-                         "conditions": [
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong> Please note that you must meet certain criteria within Te Kura’s enrolment policy.  </strong></p>",
+                        "links": [
+                          {
+                            "text": "Learn more about Te Kura",
+                            "href": "https://www.tekura.school.nz/"
+                          },
+                          {
+                            "text": "Enrolment Policy",
+                            "href": "https://www.tekura.school.nz/assets/enrolment/Te-Kura-Enrolment-and-Dual-Tuition-Policy-2019.pdf"
+                          }
                         ]
                       },
                       {
@@ -269,7 +321,7 @@
                         "heading": "Home-based education and care",
                         "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
                         "conditions": [
-                         ]
+                        ]
                       },
                       {
                         "heading": "",
@@ -445,7 +497,17 @@
                       },
                       {
                         "heading": "",
-                        "text": "<p><strong>All early learning services operate differently. Please arrange a visit with your shortlisted centres to make sure that they meet your needs. </strong></p>"
+                        "text": "<p><strong> Please note that you must meet certain criteria within Te Kura’s enrolment policy.  </strong></p>",
+                        "links": [
+                          {
+                            "text": "Learn more about Te Kura",
+                            "href": "https://www.tekura.school.nz/"
+                          },
+                          {
+                            "text": "Enrolment Policy",
+                            "href": "https://www.tekura.school.nz/assets/enrolment/Te-Kura-Enrolment-and-Dual-Tuition-Policy-2019.pdf"
+                          }
+                        ]
                       }             
                     ]
                   }
@@ -471,7 +533,21 @@
                         "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
                         "conditions": [
                         ]
-                      }, 
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong> Please note that you must meet certain criteria within Te Kura’s enrolment policy.  </strong></p>",
+                        "links": [
+                          {
+                            "text": "Learn more about Te Kura",
+                            "href": "https://www.tekura.school.nz/"
+                          },
+                          {
+                            "text": "Enrolment Policy",
+                            "href": "https://www.tekura.school.nz/assets/enrolment/Te-Kura-Enrolment-and-Dual-Tuition-Policy-2019.pdf"
+                          }
+                        ]
+                      },
                       {
                         "heading": "Te Kōhanga Reo",
                         "text": "Kōhanga reo centres are operated by the umbrella organisation, Te Kōhanga Reo National Trust. They provide a full immersion te reo Māori and Maori-led whānau programme. More than 80% of the communication is in te reo Māori. Parents and whānau volunteers hold sessions for no more than 4 hours per day for children of birth to school age. As well as children’s learning, kōhanga reo also offers courses for parents, through whānau learning, as well as professional development for kaiako (teachers).",
@@ -550,7 +626,7 @@
                         "heading": "Home-based education and care",
                         "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
                         "conditions": [
-                         ]
+                        ]
                       },
                       {
                         "heading": "",
@@ -581,7 +657,7 @@
                         "heading": "Home-based education and care",
                         "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
                         "conditions": [
-                         ]
+                        ]
                       },
                       {
                         "heading": "Puna Reo",
@@ -690,14 +766,28 @@
                       {
                         "heading": "Te Kura (the Correspondence School)",
                         "text": "Te Kura (the Correspondence School) offers learning programmes for children aged between 3 and 5 years who can't attend an early learning service due to rural location, high health needs or other special circumstances. Te Kura's early learning educators work with you to meet your child's early learning needs.",
-                         "conditions": [
+                        "conditions": [
+                        ]
+                      },
+                      {
+                        "heading": "",
+                        "text": "<p><strong> Please note that you must meet certain criteria within Te Kura’s enrolment policy.  </strong></p>",
+                        "links": [
+                          {
+                            "text": "Learn more about Te Kura",
+                            "href": "https://www.tekura.school.nz/"
+                          },
+                          {
+                            "text": "Enrolment Policy",
+                            "href": "https://www.tekura.school.nz/assets/enrolment/Te-Kura-Enrolment-and-Dual-Tuition-Policy-2019.pdf"
+                          }
                         ]
                       },
                       {
                         "heading": "Home-based education and care",
                         "text": "Home-based education and care is provided by an educator for groups of up to 4 children, from birth to school age, in a home setting. Educators belong to a licensed home-based care network. They do not need to be qualified teachers but they are supported by coordinators who are qualified and registered teachers. The coordinator visits each home regularly to check on children’s safety, wellbeing and learning.",
                         "conditions": [
-                         ]
+                        ]
                       }, 
                       {
                         "heading": "",
